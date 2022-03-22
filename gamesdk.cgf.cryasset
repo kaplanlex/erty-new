@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="7cbe809d-7244-fa6d-02f0-917567ddcd82" source="untitled.obj">
+ <Files>
+  <File path="gamesdk.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">1242</Detail>
+  <Detail name="vertexCount">2496</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">%ENGINE%/EngineAssets/Materials/material_default.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

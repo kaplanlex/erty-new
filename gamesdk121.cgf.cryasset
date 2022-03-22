@@ -1,0 +1,14 @@
+<AssetMetadata version="0" type="Mesh" guid="86a1ba2d-4861-fa2d-34c8-0cdcf7859cd6" source="13449_Treasure_Chest_v1_l1.obj">
+ <Files>
+  <File path="gamesdk121.cgf"/>
+ </Files>
+ <Details>
+  <Detail name="materialCount">3</Detail>
+  <Detail name="triangleCount">30712</Detail>
+  <Detail name="vertexCount">20772</Detail>
+  <Detail name="16BitPrecision">false</Detail>
+ </Details>
+ <Dependencies>
+  <Path usageCount="1">materials/generic/wood/barrel_wood.mtl</Path>
+ </Dependencies>
+</AssetMetadata>

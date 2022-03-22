@@ -1,0 +1,10 @@
+<AssetMetadata version="0" type="Texture" guid="38591036-1fa8-15a2-7863-ad74a3fbc61f" source="erty.tif">
+ <Files>
+  <File path="erty.dds"/>
+ </Files>
+ <Details>
+  <Detail name="width">1024</Detail>
+  <Detail name="height">1024</Detail>
+  <Detail name="mipCount">9</Detail>
+ </Details>
+</AssetMetadata>
