@@ -1,4 +1,4 @@
-<AssetMetadata version="0" type="Level" guid="03e8cab4-4850-1300-e4cd-b8a524ce5ca3" source="" timestamp="1648014584">
+<AssetMetadata version="0" type="Level" guid="03e8cab4-4850-1300-e4cd-b8a524ce5ca3" source="" timestamp="1648112265">
  <Files>
   <File path="erty/erty.level"/>
  </Files>
@@ -572,28 +572,18 @@
   <Path>animations/mannequin/adb/turretcontrollerdefs.xml</Path>
   <Path>animations/mannequin/adb/turrettags.xml</Path>
   <Path>animations/weapons/turret/turret_aimposes_01.caf</Path>
-  <Path>engineassets/textures/grey.dds</Path>
+  <Path>entities.xml</Path>
   <Path>erty/gamesdk.cgf</Path>
   <Path>erty/gamesdk121.cgf</Path>
   <Path>erty/leveldata/objectives.xml</Path>
   <Path>gamesdk.cgf</Path>
   <Path>gamesdk11.cgf</Path>
-  <Path>libs/actiongraphs/sdk_explosion.xml</Path>
   <Path>libs/bodydamage/bodydamage_default.xml</Path>
   <Path>libs/bodydamage/bodydamage_humanturret.xml</Path>
   <Path>libs/bodydamage/bodydestructibility_humanmaleshared.xml</Path>
   <Path>libs/bodydamage/bodydestructibility_humanturret.xml</Path>
   <Path>libs/bodydamage/bodyparts_humanmaleshared.xml</Path>
   <Path>libs/bodydamage/bodyparts_humanturret.xml</Path>
-  <Path>libs/config/controller/buttonlayout_alt.xml</Path>
-  <Path>libs/config/controller/buttonlayout_altlefty.xml</Path>
-  <Path>libs/config/controller/buttonlayout_default.xml</Path>
-  <Path>libs/config/controller/buttonlayout_lefty.xml</Path>
-  <Path>libs/config/controller/sticklayout_default.xml</Path>
-  <Path>libs/config/controller/sticklayout_lefty.xml</Path>
-  <Path>libs/config/controller/sticklayout_legacy.xml</Path>
-  <Path>libs/config/controller/sticklayout_legacylefty.xml</Path>
-  <Path>libs/config/defaultprofile.xml</Path>
   <Path>libs/entityarchetypes/animals.xml</Path>
   <Path>libs/entityarchetypes/characters.xml</Path>
   <Path>libs/entityarchetypes/lights.xml</Path>
@@ -612,50 +602,21 @@
   <Path>libs/particles/breakable_objects.xml</Path>
   <Path>libs/particles/bullet.xml</Path>
   <Path>libs/particles/collisions.xml</Path>
-  <Path>libs/particles/melee.xml</Path>
   <Path>libs/particles/vehicles.xml</Path>
   <Path>libs/particles/water.xml</Path>
   <Path>libs/particles/weapon_fx.xml</Path>
   <Path>libs/particles/weather.xml</Path>
   <Path>libs/ui//texturepreload.xml</Path>
   <Path>libs/ui/objectives_global.xml</Path>
-  <Path>materials/decals/blood/blood_splat1.mtl</Path>
-  <Path>materials/decals/blood/blood_splat2.mtl</Path>
-  <Path>materials/decals/blood/blood_splat3.mtl</Path>
-  <Path>materials/decals/blood/blood_splat4.mtl</Path>
-  <Path>materials/decals/blood/blood_splat5.mtl</Path>
-  <Path>materials/decals/blood/blood_splatx1.mtl</Path>
-  <Path>materials/decals/blood/blood_splatx2.mtl</Path>
-  <Path>materials/decals/blood/blood_splatx3.mtl</Path>
-  <Path>materials/decals/blood/human_body.mtl</Path>
-  <Path>materials/decals/concrete/concrete_crack1.mtl</Path>
-  <Path>materials/decals/concrete/concrete_crack2.mtl</Path>
-  <Path>materials/decals/concrete/concrete_crack3.mtl</Path>
-  <Path>materials/decals/concrete/concrete_plain.mtl</Path>
-  <Path>materials/decals/default_blast.mtl</Path>
-  <Path>materials/decals/dirt/ground.mtl</Path>
-  <Path>materials/decals/dirt/terrain_soil.mtl</Path>
-  <Path>materials/decals/footsteps/footstep_dirt.mtl</Path>
   <Path>materials/decals/footsteps/footstep_snow.mtl</Path>
-  <Path>materials/decals/glass/glass.mtl</Path>
-  <Path>materials/decals/glass/glass_b.mtl</Path>
-  <Path>materials/decals/ice/ice.mtl</Path>
-  <Path>materials/decals/metal/metal_tin.mtl</Path>
-  <Path>materials/decals/rock/rock_hard.mtl</Path>
-  <Path>materials/decals/rock/rock_sandy.mtl</Path>
-  <Path>materials/decals/snow/snow_melt.mtl</Path>
-  <Path>materials/decals/wood/wood_planks.mtl</Path>
   <Path>materials/generic/displacement/bricks.mtl</Path>
   <Path>materials/generic/metal/boiler_metal_a.mtl</Path>
   <Path>materials/generic/metal/gold.mtl</Path>
   <Path>materials/generic/rock/canyon_rock.mtl</Path>
-  <Path>materials/hud/hud3d.mtl</Path>
   <Path>materials/lights/lens_flares/generic/lens_optics.mtl</Path>
-  <Path>materials/particle/exposion_normal.mtl</Path>
   <Path>materials/particle/flare_glow.mtl</Path>
   <Path>materials/particle/refraction.mtl</Path>
   <Path>materials/particle/spec_water.mtl</Path>
-  <Path>materials/particle/water_deformation_a.mtl</Path>
   <Path>materials/references/base_colors/aqua.mtl</Path>
   <Path>materials/terrain/beach_sand_a.mtl</Path>
   <Path>objects/architecture/bridges/wooden_bridge/sb_wooden_bridge_main.cgf</Path>
@@ -675,6 +636,10 @@
   <Path>objects/architecture/buildings/gatehouse/gatehouse_groundplate_lod1.cgf</Path>
   <Path>objects/architecture/buildings/gatehouse/gatehouse_groundplate_lod2.cgf</Path>
   <Path>objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf</Path>
+  <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_wall_top_a.cgf</Path>
+  <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_wall_top_a_lod1.cgf</Path>
+  <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_wall_top_a_lod2.cgf</Path>
+  <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_wall_top_a_lod3.cgf</Path>
   <Path>objects/architecture/paths/wooden_pathway/woodpath_platform.cgf</Path>
   <Path>objects/architecture/paths/wooden_pathway/woodpath_platform_lod1.cgf</Path>
   <Path>objects/architecture/paths/wooden_pathway/woodpath_pole.cgf</Path>
@@ -727,24 +692,16 @@
   <Path>objects/characters/humanoid/humanoid_material.mtl</Path>
   <Path>objects/characters/humanoid/plasma_rifle.cgf</Path>
   <Path>objects/characters/humanoid/plasma_rifle_lod1.cgf</Path>
-  <Path>objects/default/editorprimitive.mtl</Path>
   <Path>objects/default/explosion_shape/tree_broken_shape.cgf</Path>
   <Path>objects/default/explosion_shape/tree_broken_shape2.cgf</Path>
   <Path>objects/default/explosion_shape/tree_broken_shape3.cgf</Path>
   <Path>objects/default/explosion_shape/trunk_splinters_a.cgf</Path>
-  <Path>objects/default/primitive_box.cgf</Path>
   <Path>objects/effects/debris/broken_wheel.cgf</Path>
   <Path>objects/effects/muzzle_flash_standard.cgf</Path>
   <Path>objects/effects/natural/dust/dust_plume_c.cgf</Path>
-  <Path>objects/effects/natural/particle_green_leafs_a.cgf</Path>
-  <Path>objects/effects/natural/particle_green_leafs_b.cgf</Path>
   <Path>objects/effects/natural/particle_green_leafs_d.cgf</Path>
   <Path>objects/effects/natural/particle_ice_a.cgf</Path>
-  <Path>objects/effects/natural/particle_ice_a_small.cgf</Path>
-  <Path>objects/effects/natural/particle_ice_b.cgf</Path>
   <Path>objects/effects/natural/particle_ice_c_small.cgf</Path>
-  <Path>objects/effects/natural/particle_rock.mtl</Path>
-  <Path>objects/effects/natural/particle_rock_a.cgf</Path>
   <Path>objects/effects/tracer_standard_new.cgf</Path>
   <Path>objects/geomcaches/stone_toad/textures/granite_tiled_ddn.dds</Path>
   <Path>objects/geomcaches/stone_toad/textures/granite_tiled_diff.dds</Path>
@@ -759,15 +716,6 @@
   <Path>objects/geomcaches/stone_toad/toad_prestandin.cgf</Path>
   <Path>objects/geomcaches/stone_toad/toad_prestandin_lod1.cgf</Path>
   <Path>objects/geomcaches/stone_toad/toad_prestandin_lod2.cgf</Path>
-  <Path>objects/hud/hud_plane_a.cgf</Path>
-  <Path>objects/hud/hud_plane_c.cgf</Path>
-  <Path>objects/hud/hud_plane_d.cgf</Path>
-  <Path>objects/hud/hud_plane_e.cgf</Path>
-  <Path>objects/hud/hud_plane_f.cgf</Path>
-  <Path>objects/hud/hud_plane_g.cgf</Path>
-  <Path>objects/hud/hud_plane_h.cgf</Path>
-  <Path>objects/hud/hud_plane_i.cgf</Path>
-  <Path>objects/hud/hud_plane_j.cgf</Path>
   <Path>objects/natural/bushes/bush_round_leaf/bush_round_leaf_a.cgf</Path>
   <Path>objects/natural/bushes/bush_round_leaf/bush_round_leaf_a_lod1.cgf</Path>
   <Path>objects/natural/bushes/bush_round_leaf/bush_round_leaf_b.cgf</Path>
@@ -791,9 +739,6 @@
   <Path>objects/natural/rocks/beach_rocks/beach_rock_con.mtl</Path>
   <Path>objects/natural/rocks/cliff_rocks/textures/cliff_rock_a_ddna.dds</Path>
   <Path>objects/natural/rocks/cliff_rocks/textures/cliff_rock_a_diff.dds</Path>
-  <Path>objects/natural/rocks/erosion/landslide_rock_small_a.cgf</Path>
-  <Path>objects/natural/rocks/river_rocks/dry_pattern_a.cgf</Path>
-  <Path>objects/natural/rocks/river_rocks/dry_pattern_a_lod1.cgf</Path>
   <Path>objects/natural/rocks/street_rocks/street_rock_01.cgf</Path>
   <Path>objects/natural/rocks/street_rocks/street_rock_01_lod1.cgf</Path>
   <Path>objects/natural/rocks/street_rocks/street_rock_01_lod2.cgf</Path>
@@ -816,7 +761,6 @@
   <Path>objects/natural/trees/dead_tree/dead_tree_root_c_lod1.cgf</Path>
   <Path>objects/natural/trees/dead_tree/dead_tree_root_c_lod2.cgf</Path>
   <Path>objects/natural/trees/explosion_shape/tree_broken_shape.mtl</Path>
-  <Path>objects/natural/trees/explosion_shape/tree_splinter.cgf</Path>
   <Path>objects/natural/trees/explosion_shape/trunk_splinters.mtl</Path>
   <Path>objects/natural/trees/fallen_log/cover_tree.cgf</Path>
   <Path>objects/natural/trees/fallen_log/cover_tree_lod1.cgf</Path>
@@ -836,9 +780,9 @@
   <Path>objects/natural/trees/palm_tree/palm_tree_short_a_con.cgf</Path>
   <Path>objects/natural/trees/palm_tree/palm_tree_short_a_con_lod1.cgf</Path>
   <Path>objects/natural/trees/palm_tree/palm_tree_short_a_con_lod2.cgf</Path>
-  <Path>objects/natural/trees/thin_leave_tree/branches.mtl</Path>
-  <Path>objects/natural/trees/thin_leave_tree/forest_ground_branches_1_h.cgf</Path>
-  <Path>objects/natural/trees/thin_leave_tree/forest_ground_branches_1_h_lod1.cgf</Path>
+  <Path>objects/natural/trees/x_trees/pine_x_tree/x_trees.mtl</Path>
+  <Path>objects/natural/trees/x_trees/pine_x_tree/x_trees_10_scaled.cgf</Path>
+  <Path>objects/natural/trees/x_trees/pine_x_tree/x_trees_x2_10_scaled.cgf</Path>
   <Path>objects/pbs_reference/ground_mats/mixed_stones1.mtl</Path>
   <Path>objects/props/fishing_camp/camping_tent.cgf</Path>
   <Path>objects/props/fishing_camp/camping_tent_lod1.cgf</Path>
@@ -993,13 +937,7 @@
   <Path>objects/weapons/turret/turretgun_lod1.cgf</Path>
   <Path>objects/weapons/turret/turretgun_lod2.cgf</Path>
   <Path>objects/weapons/turret/turretgun_lod3.cgf</Path>
-  <Path>prefabs/hud.xml</Path>
   <Path>scripts/ai/behaviortrees/sdk_grunt_07.xml</Path>
-  <Path>scripts/ai/factions.xml</Path>
-  <Path>scripts/ai/tacticalpositionmanager.lua</Path>
-  <Path>scripts/ai/tps/humangruntqueries.lua</Path>
-  <Path>scripts/ai/tps/sdkgruntqueries.lua</Path>
-  <Path>scripts/ai/tps/sharedqueries.lua</Path>
   <Path>scripts/entities/ai/characters/human.lua</Path>
   <Path>scripts/entities/boids/birds.lua</Path>
   <Path>scripts/entities/boids/chickens.lua</Path>
@@ -1024,7 +962,6 @@
   <Path>scripts/entities/vehicles/vehiclepool.lua</Path>
   <Path>scripts/physics.lua</Path>
   <Path>textures/decals/rock/bullet_rockforest.dds</Path>
-  <Path>textures/defaults/default_mat_warning.dds</Path>
   <Path>textures/generic/metal/rusted_steel_ddna.dds</Path>
   <Path>textures/generic/metal/rusted_steel_diff.dds</Path>
   <Path>textures/lights/flashlight_projector.dds</Path>
@@ -1038,9 +975,7 @@
   <Path>textures/lights/lens_flares/visor_scratch.dds</Path>
   <Path>textures/sprites/blood/blood_a.dds</Path>
   <Path>textures/sprites/blood/blood_anim_a.dds</Path>
-  <Path>textures/sprites/blood/blood_tiled_a.dds</Path>
   <Path>textures/sprites/dirt/dirt_a.dds</Path>
-  <Path>textures/sprites/dirt/dirt_b.dds</Path>
   <Path>textures/sprites/dirt/dirt_c.dds</Path>
   <Path>textures/sprites/fire/explosion_a.dds</Path>
   <Path>textures/sprites/fire/explosion_add.dds</Path>
@@ -1049,6 +984,7 @@
   <Path>textures/sprites/fire/fire_tiled_a.dds</Path>
   <Path>textures/sprites/fire/fireball1_tiled4.dds</Path>
   <Path>textures/sprites/fire/fireball1_tiled4_desat.dds</Path>
+  <Path>textures/sprites/fire/fireball_anim_a.dds</Path>
   <Path>textures/sprites/fire/fireball_anim_b.dds</Path>
   <Path>textures/sprites/fire/fireball_tiled_b.dds</Path>
   <Path>textures/sprites/glass/glass_tiled.dds</Path>
@@ -1056,37 +992,22 @@
   <Path>textures/sprites/glow/glow.dds</Path>
   <Path>textures/sprites/glow/glow_a.dds</Path>
   <Path>textures/sprites/glow/glow_tiled.dds</Path>
-  <Path>textures/sprites/hud/blood1_bullet.dds</Path>
-  <Path>textures/sprites/hud/blood2_bullet.dds</Path>
-  <Path>textures/sprites/hud/blood3_bullet.dds</Path>
-  <Path>textures/sprites/hud/dirt1_bullet.dds</Path>
-  <Path>textures/sprites/hud/dirt2_bullet.dds</Path>
-  <Path>textures/sprites/hud/dirt3_bullet.dds</Path>
   <Path>textures/sprites/leaves/leaf_tiled_a.dds</Path>
-  <Path>textures/sprites/leaves/leaf_tiled_b.dds</Path>
   <Path>textures/sprites/lightning/electric_radial1.dds</Path>
   <Path>textures/sprites/muzzleflash/muzzle_front_a.dds</Path>
   <Path>textures/sprites/muzzleflash/muzzle_side_a.dds</Path>
   <Path>textures/sprites/muzzleflash/muzzle_tiled_a.dds</Path>
   <Path>textures/sprites/muzzleflash/muzzle_tiled_b.dds</Path>
-  <Path>textures/sprites/smoke/anm_smoke_desat.dds</Path>
-  <Path>textures/sprites/smoke/around.dds</Path>
   <Path>textures/sprites/smoke/dust_smoke6.dds</Path>
   <Path>textures/sprites/smoke/smoke_a.dds</Path>
   <Path>textures/sprites/smoke/smoke_b.dds</Path>
-  <Path>textures/sprites/smoke/smoke_roll_animated2.dds</Path>
-  <Path>textures/sprites/smoke/smoke_tiled_b.dds</Path>
   <Path>textures/sprites/smoke/smoke_tiled_c.dds</Path>
   <Path>textures/sprites/smoke/smoke_trail_a.dds</Path>
   <Path>textures/sprites/smoke/smoke_white_tiled2.dds</Path>
   <Path>textures/sprites/smoke/smoke_white_tiled2_whispy.dds</Path>
-  <Path>textures/sprites/smoke/spore_a.dds</Path>
-  <Path>textures/sprites/smoke/spore_white.dds</Path>
   <Path>textures/sprites/smoke/trail_smoke_b.dds</Path>
-  <Path>textures/sprites/snow/blast_fall_ice.dds</Path>
   <Path>textures/sprites/snow/snow_sheet_a.dds</Path>
   <Path>textures/sprites/sparks/spark_a.dds</Path>
-  <Path>textures/sprites/sparks/spark_mono_a.dds</Path>
   <Path>textures/sprites/sparks/spark_sheet_a.dds</Path>
   <Path>textures/sprites/sparks/spark_stretched1.dds</Path>
   <Path>textures/sprites/sparks/spark_stretched1_tiled2.dds</Path>
@@ -1095,16 +1016,11 @@
   <Path>textures/sprites/sparks/sparks_a.dds</Path>
   <Path>textures/sprites/sparks/sparks_multi_tiled.dds</Path>
   <Path>textures/sprites/stones/stones_tiled.dds</Path>
-  <Path>textures/sprites/stones/stones_tiled_a.dds</Path>
   <Path>textures/sprites/water/bubble_a.dds</Path>
-  <Path>textures/sprites/water/heli_wake.dds</Path>
   <Path>textures/sprites/water/ripple_a.dds</Path>
   <Path>textures/sprites/water/shockwave_grey.dds</Path>
-  <Path>textures/sprites/water/underwater_tiled_a.dds</Path>
   <Path>textures/sprites/water/water_a.dds</Path>
-  <Path>textures/sprites/water/water_anim_a.dds</Path>
   <Path>textures/sprites/water/water_b.dds</Path>
-  <Path>textures/sprites/water/water_splash3.dds</Path>
   <Path>textures/sprites/water/water_tiled_b.dds</Path>
   <Path>textures/sprites/water/waterdrop_a.dds</Path>
   <Path>textures/sprites/wood/wood_chip_tiled.dds</Path>
