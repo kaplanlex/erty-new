@@ -1,4 +1,4 @@
-<AssetMetadata version="0" type="Level" guid="03e8cab4-4850-1300-e4cd-b8a524ce5ca3" source="" timestamp="1648117087">
+<AssetMetadata version="0" type="Level" guid="03e8cab4-4850-1300-e4cd-b8a524ce5ca3" source="" timestamp="1648230607">
  <Files>
   <File path="erty/erty.level"/>
  </Files>
@@ -573,7 +573,6 @@
   <Path>animations/mannequin/adb/turrettags.xml</Path>
   <Path>animations/weapons/turret/turret_aimposes_01.caf</Path>
   <Path>engineassets/textures/grey.dds</Path>
-  <Path>entities.xml</Path>
   <Path>erty/gamesdk.cgf</Path>
   <Path>erty/gamesdk121.cgf</Path>
   <Path>erty/leveldata/objectives.xml</Path>
@@ -675,6 +674,7 @@
   <Path>objects/architecture/buildings/gatehouse/gatehouse_groundplate.cgf</Path>
   <Path>objects/architecture/buildings/gatehouse/gatehouse_groundplate_lod1.cgf</Path>
   <Path>objects/architecture/buildings/gatehouse/gatehouse_groundplate_lod2.cgf</Path>
+  <Path>objects/architecture/buildings/greenhouse/greenhouse.cgf</Path>
   <Path>objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf</Path>
   <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_wall_top_a.cgf</Path>
   <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_wall_top_a_lod1.cgf</Path>
