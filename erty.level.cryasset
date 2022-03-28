@@ -1,4 +1,4 @@
-<AssetMetadata version="0" type="Level" guid="03e8cab4-4850-1300-e4cd-b8a524ce5ca3" source="" timestamp="1648458496">
+<AssetMetadata version="0" type="Level" guid="03e8cab4-4850-1300-e4cd-b8a524ce5ca3" source="" timestamp="1648464092">
  <Files>
   <File path="erty/erty.level"/>
  </Files>
@@ -631,9 +631,12 @@
   <Path>objects/architecture/buildings/fishing_houses/fishing_house_c_lod1.cgf</Path>
   <Path>objects/architecture/buildings/fishing_houses/fishing_house_c_lod2.cgf</Path>
   <Path>objects/architecture/buildings/fishing_houses/wood_table.cgf</Path>
+  <Path>objects/architecture/buildings/gatehouse/gatehouse.cgf</Path>
   <Path>objects/architecture/buildings/gatehouse/gatehouse_groundplate.cgf</Path>
   <Path>objects/architecture/buildings/gatehouse/gatehouse_groundplate_lod1.cgf</Path>
   <Path>objects/architecture/buildings/gatehouse/gatehouse_groundplate_lod2.cgf</Path>
+  <Path>objects/architecture/buildings/gatehouse/gatehouse_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/gatehouse/gatehouse_lod2.cgf</Path>
   <Path>objects/architecture/buildings/greenhouse/greenhouse.cgf</Path>
   <Path>objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf</Path>
   <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_wall_top_a.cgf</Path>
@@ -889,6 +892,7 @@
   <Path>objects/vehicles/mh60_blackhawk/mh60_a.cgf</Path>
   <Path>objects/vehicles/mh60_blackhawk/mh60_a_lod1.cgf</Path>
   <Path>objects/vehicles/mh60_blackhawk/mh60_a_lod2.cgf</Path>
+  <Path>objects/vehicles/samplebike/samplebike.cga</Path>
   <Path>objects/vehicles/speedboat/speedboat_a.cga</Path>
   <Path>objects/vehicles/speedboat/speedboat_a_damaged.cga</Path>
   <Path>objects/vehicles/speedboat/speedboat_a_damaged_lod1.cga</Path>
@@ -992,6 +996,7 @@
   <Path>scripts/entities/turret/turret.lua</Path>
   <Path>scripts/entities/vehicles/implementations/xml/abrams.xml</Path>
   <Path>scripts/entities/vehicles/implementations/xml/hmmwv.xml</Path>
+  <Path>scripts/entities/vehicles/implementations/xml/samplebike.xml</Path>
   <Path>scripts/entities/vehicles/implementations/xml/speedboat.xml</Path>
   <Path>scripts/entities/vehicles/implementations/xml/swat_van.xml</Path>
   <Path>scripts/entities/vehicles/lights/defaultvehiclelights.xml</Path>
