@@ -1,11 +1,15 @@
-<AssetMetadata version="0" type="Level" guid="03e8cab4-4850-1300-e4cd-b8a524ce5ca3" source="" timestamp="1648538846">
+<AssetMetadata version="0" type="Level" guid="03e8cab4-4850-1300-e4cd-b8a524ce5ca3" source="" timestamp="1648546308">
  <Files>
   <File path="erty/erty.level"/>
  </Files>
  <Dependencies>
   <Path usageCount="1">%ENGINE%/EngineAssets/Shading/default.env</Path>
+  <Path>%editor%/materials/areasolid.dds</Path>
+  <Path>%editor%/materials/areasolid.mtl</Path>
   <Path>%editor%/objects/gradf.dds</Path>
   <Path>%editor%/objects/helper_illum.mtl</Path>
+  <Path>%editor%/objects/mtlobjects.mtl</Path>
+  <Path>%editor%/objects/mtlsphere.cgf</Path>
   <Path>%editor%/objects/spawnpointhelper.cgf</Path>
   <Path>%editor%/objects/t.cgf</Path>
   <Path>%engine%/engineassets/icons/averagememoryusage.dds</Path>
@@ -22,11 +26,16 @@
   <Path>%engine%/engineassets/materials/fog/waterfogvolumeoutof.mtl</Path>
   <Path>%engine%/engineassets/materials/material_default.mtl</Path>
   <Path>%engine%/engineassets/materials/material_terrain_default.mtl</Path>
+  <Path>%engine%/engineassets/materials/meshimporter/mi_previewvertexalpha.mtl</Path>
+  <Path>%engine%/engineassets/materials/meshimporter/mi_previewvertexcolor.mtl</Path>
   <Path>%engine%/engineassets/materials/water/ocean_default.mtl</Path>
   <Path>%engine%/engineassets/materials/water/wateroceanbottom.mtl</Path>
   <Path>%engine%/engineassets/objects/primitive_sphere.cgf</Path>
   <Path>%engine%/engineassets/raintextures.xml</Path>
+  <Path>%engine%/engineassets/texturemsg/color_black.dds</Path>
   <Path>%engine%/engineassets/texturemsg/defaultnouvs.dds</Path>
+  <Path>%engine%/engineassets/textures/default_probe_cm.dds</Path>
+  <Path>%engine%/engineassets/textures/default_probe_cm_diff.dds</Path>
   <Path>%engine%/engineassets/textures/frozen/frost_noise4.dds</Path>
   <Path>%engine%/engineassets/textures/frozen/snow_spatter.dds</Path>
   <Path>%engine%/engineassets/textures/grey.dds</Path>
@@ -573,7 +582,6 @@
   <Path>animations/mannequin/adb/turrettags.xml</Path>
   <Path>animations/weapons/turret/turret_aimposes_01.caf</Path>
   <Path>engineassets/textures/grey.dds</Path>
-  <Path>entities.xml</Path>
   <Path>erty/gamesdk.cgf</Path>
   <Path>erty/gamesdk121.cgf</Path>
   <Path>erty/leveldata/objectives.xml</Path>
@@ -620,10 +628,43 @@
   <Path>libs/particles/weather.xml</Path>
   <Path>libs/ui//texturepreload.xml</Path>
   <Path>libs/ui/objectives_global.xml</Path>
+  <Path>libs/ui/textures/background2.dds</Path>
+  <Path>libs/ui/textures/computer_key_enter.dds</Path>
+  <Path>libs/ui/textures/game_prematch_text.dds</Path>
+  <Path>libs/ui/textures/hardleft.dds</Path>
+  <Path>libs/ui/textures/hardright.dds</Path>
+  <Path>libs/ui/textures/menus_mouse_cursor.dds</Path>
+  <Path>libs/ui/textures/menus_startmenu_noise.dds</Path>
+  <Path>libs/ui/textures/menus_startmenu_particle1.dds</Path>
+  <Path>libs/ui/textures/menus_startmenu_particle2.dds</Path>
+  <Path>libs/ui/textures/menus_startmenu_particle3.dds</Path>
+  <Path>libs/ui/textures/menus_startmenu_scanline.dds</Path>
+  <Path>libs/ui/textures/pc_onfoot.dds</Path>
+  <Path>libs/ui/textures/pc_vehicle.dds</Path>
+  <Path>libs/ui/textures/ps4_onfoot.dds</Path>
+  <Path>libs/ui/textures/ps4_vehicle.dds</Path>
+  <Path>libs/ui/textures/ps_button_circle.dds</Path>
+  <Path>libs/ui/textures/ps_button_select.dds</Path>
+  <Path>libs/ui/textures/ps_button_square.dds</Path>
+  <Path>libs/ui/textures/ps_button_start.dds</Path>
+  <Path>libs/ui/textures/ps_button_triangle.dds</Path>
+  <Path>libs/ui/textures/ps_button_x.dds</Path>
+  <Path>libs/ui/textures/softleft.dds</Path>
+  <Path>libs/ui/textures/softright.dds</Path>
+  <Path>libs/ui/textures/startscreen.dds</Path>
+  <Path>libs/ui/textures/xbox_button_a.dds</Path>
+  <Path>libs/ui/textures/xbox_button_b.dds</Path>
+  <Path>libs/ui/textures/xbox_button_back.dds</Path>
+  <Path>libs/ui/textures/xbox_button_start.dds</Path>
+  <Path>libs/ui/textures/xbox_button_x.dds</Path>
+  <Path>libs/ui/textures/xbox_button_y.dds</Path>
+  <Path>libs/ui/textures/xbox_onfoot.dds</Path>
+  <Path>libs/ui/textures/xbox_vehicle.dds</Path>
   <Path>materials/decals/blood/blood_splat1.mtl</Path>
   <Path>materials/decals/blood/blood_splat2.mtl</Path>
   <Path>materials/decals/blood/blood_splat3.mtl</Path>
   <Path>materials/decals/blood/blood_splat4.mtl</Path>
+  <Path>materials/decals/blood/blood_splat5.mtl</Path>
   <Path>materials/decals/blood/blood_splatx1.mtl</Path>
   <Path>materials/decals/blood/blood_splatx2.mtl</Path>
   <Path>materials/decals/blood/blood_splatx3.mtl</Path>
@@ -643,10 +684,13 @@
   <Path>materials/decals/metal/metal_tin.mtl</Path>
   <Path>materials/decals/rock/rock_hard.mtl</Path>
   <Path>materials/decals/rock/rock_sandy.mtl</Path>
+  <Path>materials/decals/rubbish/cardboard.mtl</Path>
   <Path>materials/decals/snow/snow_melt.mtl</Path>
   <Path>materials/decals/wood/wood_planks.mtl</Path>
   <Path>materials/generic/displacement/bricks.mtl</Path>
   <Path>materials/generic/metal/boiler_metal_a.mtl</Path>
+  <Path>materials/generic/metal/cargo_ship_metal_side.mtl</Path>
+  <Path>materials/generic/metal/floor_metal_plain.mtl</Path>
   <Path>materials/generic/metal/gold.mtl</Path>
   <Path>materials/generic/rock/canyon_rock.mtl</Path>
   <Path>materials/hud/hud3d.mtl</Path>
@@ -657,6 +701,7 @@
   <Path>materials/particle/spec_water.mtl</Path>
   <Path>materials/particle/water_deformation_a.mtl</Path>
   <Path>materials/references/base_colors/aqua.mtl</Path>
+  <Path>materials/references/surface_types/canopy_ddn.dds</Path>
   <Path>materials/terrain/beach_sand_a.mtl</Path>
   <Path>objects/architecture/bridges/wooden_bridge/sb_wooden_bridge_main.cgf</Path>
   <Path>objects/architecture/bridges/wooden_bridge/sb_wooden_bridge_main_lod1.cgf</Path>
@@ -678,9 +723,9 @@
   <Path>objects/architecture/buildings/gatehouse/gatehouse_lod1.cgf</Path>
   <Path>objects/architecture/buildings/gatehouse/gatehouse_lod2.cgf</Path>
   <Path>objects/architecture/buildings/greenhouse/greenhouse.cgf</Path>
+  <Path>objects/architecture/buildings/watertower_stone/textures/brick_ddna.dds</Path>
+  <Path>objects/architecture/buildings/watertower_stone/textures/brick_diff.dds</Path>
   <Path>objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf</Path>
-  <Path>objects/architecture/fences/lattice/lattice_thin_a.cgf</Path>
-  <Path>objects/architecture/fences/lattice/lattice_thin_a_16m.cgf</Path>
   <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_wall_top_a.cgf</Path>
   <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_wall_top_a_lod1.cgf</Path>
   <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_wall_top_a_lod2.cgf</Path>
@@ -693,16 +738,10 @@
   <Path>objects/characters/animals/birds/rooster/rooster.cdf</Path>
   <Path>objects/characters/animals/birds/rooster/rooster.mtl</Path>
   <Path>objects/characters/animals/birds/rooster/rooster_lod1.skin</Path>
-  <Path>objects/characters/animals/deer/antlers.cgf</Path>
-  <Path>objects/characters/animals/deer/antlers_lod1.cgf</Path>
-  <Path>objects/characters/animals/deer/antlers_lod2.cgf</Path>
-  <Path>objects/characters/animals/deer/antlers_lod3.cgf</Path>
-  <Path>objects/characters/animals/deer/antlers_lod4.cgf</Path>
   <Path>objects/characters/animals/deer/deer_model.cgf</Path>
   <Path>objects/characters/animals/deer/deer_model_lod1.cgf</Path>
   <Path>objects/characters/animals/deer/deer_model_lod2.cgf</Path>
-  <Path>objects/characters/animals/fish/tropical_fish/textures/tropical_fish02.dds</Path>
-  <Path>objects/characters/animals/fish/tropical_fish/tropical_fish02.cgf</Path>
+  <Path>objects/characters/animals/insects/butterfly/butterfly.dds</Path>
   <Path>objects/characters/animals/reptiles/alligator/alligator.mtl</Path>
   <Path>objects/characters/human/attachments/beanie/beanie_lod1.cgf</Path>
   <Path>objects/characters/human/attachments/beanie/beanie_lod2.cgf</Path>
@@ -727,6 +766,9 @@
   <Path>objects/characters/human/attachments/sunglasses/sunglasses_a_lod2.cgf</Path>
   <Path>objects/characters/human/generic/skeleton_male_generic.mtl</Path>
   <Path>objects/characters/human/heads/cultist_head/cultist_head_angry.cgf</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/romanarmor/cape_ddna.dds</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/romanarmor/cape_diff.dds</Path>
+  <Path>objects/characters/human/sdk_attachment_tutorial/romanarmor/cape_spec.dds</Path>
   <Path>objects/characters/human/sdk_player/head_a.mtl</Path>
   <Path>objects/characters/human/sdk_player/sdk_player.cdf</Path>
   <Path>objects/characters/human/sdk_player/sdk_player.mtl</Path>
@@ -741,9 +783,6 @@
   <Path>objects/characters/human/sdk_player/sdk_player_red_helmet.cdf</Path>
   <Path>objects/characters/human/sdk_player/sdk_player_red_hipster.cdf</Path>
   <Path>objects/characters/human/sdk_player/sdk_player_red_sunglasses.cdf</Path>
-  <Path>objects/characters/humanoid/eye_fish.cgf</Path>
-  <Path>objects/characters/humanoid/eye_fish.mtl</Path>
-  <Path>objects/characters/humanoid/eye_fish_lod1.cgf</Path>
   <Path>objects/characters/humanoid/humanoid_material.mtl</Path>
   <Path>objects/characters/humanoid/plasma_rifle.cgf</Path>
   <Path>objects/characters/humanoid/plasma_rifle_lod1.cgf</Path>
@@ -813,6 +852,9 @@
   <Path>objects/natural/bushes/junglebush/junglebush.mtl</Path>
   <Path>objects/natural/bushes/junglebush/junglebush_big_a.cgf</Path>
   <Path>objects/natural/bushes/junglebush/junglebush_big_a_lod1.cgf</Path>
+  <Path>objects/natural/bushes/roundleafbush/branches_max.dds</Path>
+  <Path>objects/natural/ground/bullrush/textures/bullrush_ddna.dds</Path>
+  <Path>objects/natural/ground/bullrush/textures/bullrush_diff.dds</Path>
   <Path>objects/natural/ground/field_grass/small_grass_a.cgf</Path>
   <Path>objects/natural/ground/field_grass/small_grass_b.cgf</Path>
   <Path>objects/natural/ground/forest_ground/forest_ground_patch_leafs_big_a.cgf</Path>
@@ -823,30 +865,33 @@
   <Path>objects/natural/ground/grass/grass_medium_normal_lod1.cgf</Path>
   <Path>objects/natural/ground/grass/grass_small_normal.cgf</Path>
   <Path>objects/natural/ground/grass/grass_small_normal_lod1.cgf</Path>
-  <Path>objects/natural/ground/grass/nicegrass_dry_s.cgf</Path>
-  <Path>objects/natural/ground/grass/nicegrass_drygreen_s.cgf</Path>
-  <Path>objects/natural/ground/grass/nicegrass_drygreen_s_lod1.cgf</Path>
   <Path>objects/natural/ground/grass/tall_grass_b.cgf</Path>
-  <Path>objects/natural/ground/ground_leaves/ground_leaves_3m_curb.cgf</Path>
-  <Path>objects/natural/ground/ground_leaves/ground_leaves_3m_curb_lod1.cgf</Path>
+  <Path>objects/natural/ground/ground_leaves/ground_leaves.mtl</Path>
+  <Path>objects/natural/ground/mushrooms/mushrooms_grey.mtl</Path>
+  <Path>objects/natural/ground/round_leaves_plants/round_leaves.mtl</Path>
+  <Path>objects/natural/ground/small_leaves/small_leaves.mtl</Path>
+  <Path>objects/natural/ground/thin_leaves_plants/thin_leaves.mtl</Path>
+  <Path>objects/natural/ground/tree_leave_plants/tree_leaf_plants.mtl</Path>
   <Path>objects/natural/rocks/beach_rocks/beach_rock_med_a_con.cgf</Path>
   <Path>objects/natural/rocks/beach_rocks/beach_rock_med_a_con_lod1.cgf</Path>
   <Path>objects/natural/rocks/beach_rocks/beach_rock_med_b_con.cgf</Path>
   <Path>objects/natural/rocks/beach_rocks/beach_rock_med_b_con_lod1.cgf</Path>
+  <Path>objects/natural/rocks/canyon_rocks/canyon_path_displ.dds</Path>
   <Path>objects/natural/rocks/canyon_rocks/canyon_rock_b.cgf</Path>
   <Path>objects/natural/rocks/canyon_rocks/canyon_rock_b_lod1.cgf</Path>
   <Path>objects/natural/rocks/canyon_rocks/canyon_rock_b_lod2.cgf</Path>
   <Path>objects/natural/rocks/canyon_rocks/canyon_rock_b_lod3.cgf</Path>
+  <Path>objects/natural/rocks/canyon_rocks/canyon_wall_diff.dds</Path>
+  <Path>objects/natural/rocks/canyon_rocks/canyon_wall_up_dry_ddna.dds</Path>
+  <Path>objects/natural/rocks/canyon_rocks/canyon_wall_up_river_wet_ddna.dds</Path>
+  <Path>objects/natural/rocks/canyon_rocks/canyon_wall_up_river_wet_diff.dds</Path>
+  <Path>objects/natural/rocks/canyon_rocks/canyon_wall_up_wet_ddna.dds</Path>
   <Path>objects/natural/rocks/cliff_rocks/rock_cave_a.cgf</Path>
   <Path>objects/natural/rocks/cliff_rocks/rock_cave_a_lod1.cgf</Path>
   <Path>objects/natural/rocks/cliff_rocks/rock_cave_a_lod2.cgf</Path>
   <Path>objects/natural/rocks/cliff_rocks/rock_cave_a_lod3.cgf</Path>
   <Path>objects/natural/rocks/cliff_rocks/textures/cliff_rock_a_ddna.dds</Path>
   <Path>objects/natural/rocks/cliff_rocks/textures/cliff_rock_a_diff.dds</Path>
-  <Path>objects/natural/rocks/erosion/landslide_a.cgf</Path>
-  <Path>objects/natural/rocks/erosion/landslide_a_grass.cgf</Path>
-  <Path>objects/natural/rocks/erosion/landslide_a_grass_lod1.cgf</Path>
-  <Path>objects/natural/rocks/erosion/landslide_a_lod1.cgf</Path>
   <Path>objects/natural/rocks/erosion/landslide_rock_small_a.cgf</Path>
   <Path>objects/natural/rocks/erosion/rock_particle_high.cgf</Path>
   <Path>objects/natural/rocks/forest_rocks/deco_rock_forest_ground_c.cgf</Path>
@@ -858,9 +903,6 @@
   <Path>objects/natural/rocks/granite_rocks/granite_rock_group_small_a_lod1.cgf</Path>
   <Path>objects/natural/rocks/granite_rocks/granite_rock_group_small_c.cgf</Path>
   <Path>objects/natural/rocks/granite_rocks/granite_rock_group_small_c_lod1.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_01.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_01_lod1.cgf</Path>
-  <Path>objects/natural/rocks/ground_rocks/ground_rock_01_lod2.cgf</Path>
   <Path>objects/natural/rocks/river_rocks/dry_pattern_a.cgf</Path>
   <Path>objects/natural/rocks/river_rocks/dry_pattern_a_lod1.cgf</Path>
   <Path>objects/natural/rocks/street_rocks/street_rock_01.cgf</Path>
@@ -905,19 +947,15 @@
   <Path>objects/natural/trees/palm_tree/palm_tree_short_a_con.cgf</Path>
   <Path>objects/natural/trees/palm_tree/palm_tree_short_a_con_lod1.cgf</Path>
   <Path>objects/natural/trees/palm_tree/palm_tree_short_a_con_lod2.cgf</Path>
+  <Path>objects/natural/trees/river_tree/textures/branch_a.dds</Path>
   <Path>objects/natural/trees/rocky_ravine/f_beech_bush_b.cgf</Path>
   <Path>objects/natural/trees/rocky_ravine/f_beech_bush_d.cgf</Path>
-  <Path>objects/natural/trees/rocky_ravine/f_spruce_bush_b.cgf</Path>
-  <Path>objects/natural/trees/rocky_ravine/f_spruce_bush_c.cgf</Path>
   <Path>objects/natural/trees/thin_leave_tree/branches.mtl</Path>
   <Path>objects/natural/trees/thin_leave_tree/forest_ground_branches_1_h.cgf</Path>
   <Path>objects/natural/trees/thin_leave_tree/forest_ground_branches_1_h_lod1.cgf</Path>
   <Path>objects/natural/trees/x_trees/pine_x_tree/x_trees.mtl</Path>
   <Path>objects/natural/trees/x_trees/pine_x_tree/x_trees_10_scaled.cgf</Path>
   <Path>objects/natural/trees/x_trees/pine_x_tree/x_trees_x2_10_scaled.cgf</Path>
-  <Path>objects/natural/water/ice_shelf/ice_shelf.cgf</Path>
-  <Path>objects/natural/water/ice_shelf/ice_shelf_loose_b.cgf</Path>
-  <Path>objects/natural/water/ice_shelf/ice_shelf_loose_c.cgf</Path>
   <Path>objects/natural/woodland/rock_forest_group_no_moss_a.cgf</Path>
   <Path>objects/natural/woodland/rock_forest_group_no_moss_a_lod1.cgf</Path>
   <Path>objects/natural/woodland/rock_forest_group_no_moss_a_lod2.cgf</Path>
@@ -926,65 +964,41 @@
   <Path>objects/natural/woodland/rock_forest_group_no_moss_a_lod5.cgf</Path>
   <Path>objects/natural/woodland/woodland_canyon.mtl</Path>
   <Path>objects/natural/woodland/woodland_forest.mtl</Path>
+  <Path>objects/pbs_reference/brushed_steel.dds</Path>
+  <Path>objects/pbs_reference/brushed_steel_ddna.dds</Path>
   <Path>objects/pbs_reference/ground_mats/mixed_stones1.mtl</Path>
-  <Path>objects/props/fishing_camp/beer_pack.cgf</Path>
-  <Path>objects/props/fishing_camp/campfire.cgf</Path>
-  <Path>objects/props/fishing_camp/campfire_lod1.cgf</Path>
-  <Path>objects/props/fishing_camp/campfire_lod2.cgf</Path>
   <Path>objects/props/fishing_camp/camping_tent.cgf</Path>
   <Path>objects/props/fishing_camp/camping_tent_lod1.cgf</Path>
   <Path>objects/props/fishing_camp/camping_tent_lod2.cgf</Path>
   <Path>objects/props/fishing_camp/camping_tent_lod3.cgf</Path>
+  <Path>objects/props/fishing_camp/textures/campfire_base_spec.dds</Path>
   <Path>objects/props/industrial/baskets/wicker/basket_wicker_a_dmg.cgf</Path>
   <Path>objects/props/industrial/baskets/wicker/basket_wicker_a_dmg_lod1.cgf</Path>
-  <Path>objects/props/industrial/boxes/cardboard_box/cardboard_box60cm.cgf</Path>
+  <Path>objects/props/industrial/boxes/cardboard_box/cardboard_box.mtl</Path>
+  <Path>objects/props/industrial/boxes/civil_box/civil_boxes.mtl</Path>
+  <Path>objects/props/industrial/chimneys/chimney.mtl</Path>
+  <Path>objects/props/industrial/electrical/boxes/textures/box_a_ddna.dds</Path>
+  <Path>objects/props/industrial/electrical/boxes/textures/box_a_diff.dds</Path>
+  <Path>objects/props/industrial/electrical/boxes/textures/box_b_ddna.dds</Path>
+  <Path>objects/props/industrial/electrical/boxes/textures/box_b_diff.dds</Path>
+  <Path>objects/props/industrial/electrical/card_reader/card_reader.mtl</Path>
+  <Path>objects/props/industrial/electrical/card_reader/textures/card_reader_spec.dds</Path>
   <Path>objects/props/industrial/electrical/electric_pole/electric_pole_c.cgf</Path>
   <Path>objects/props/industrial/electrical/electric_pole/electric_pole_c_lod1.cgf</Path>
-  <Path>objects/props/industrial/electrical/electric_pole/electric_pole_d.cgf</Path>
-  <Path>objects/props/industrial/electrical/electric_pole/electric_pole_d_lod1.cgf</Path>
-  <Path>objects/props/industrial/electrical/electric_pole/electric_pole_distance.cgf</Path>
-  <Path>objects/props/industrial/electrical/electric_pole/electric_pole_distance_lod1.cgf</Path>
   <Path>objects/props/industrial/electrical/electric_pole/metal_electric_pole.cgf</Path>
-  <Path>objects/props/industrial/electrical/electric_pole/metal_electric_pole_cable_100m.cgf</Path>
-  <Path>objects/props/industrial/electrical/electric_pole/metal_electric_pole_cable_50m.cgf</Path>
   <Path>objects/props/industrial/electrical/electric_pole/metal_electric_pole_lod1.cgf</Path>
   <Path>objects/props/industrial/electrical/electric_pole/metal_electric_pole_lod2.cgf</Path>
-  <Path>objects/props/industrial/lifts/reception_lift/reception_lift_surround.cgf</Path>
-  <Path>objects/props/industrial/lifts/reception_lift/receptionlift.cgf</Path>
-  <Path>objects/props/industrial/lifts/reception_lift/receptionlift_lod1.cgf</Path>
-  <Path>objects/props/industrial/radiator/radiator_1m.cgf</Path>
-  <Path>objects/props/industrial/radiator/radiator_1m_lod1.cgf</Path>
-  <Path>objects/props/industrial/radiator/radiator_1m_lod2.cgf</Path>
-  <Path>objects/props/industrial/radiator/radiator_1m_lod3.cgf</Path>
-  <Path>objects/props/industrial/radiator/radiator_1m_lod4.cgf</Path>
-  <Path>objects/props/industrial/radiator/radiator_2m.cgf</Path>
-  <Path>objects/props/industrial/radiator/radiator_2m_lod1.cgf</Path>
-  <Path>objects/props/industrial/radiator/radiator_2m_lod2.cgf</Path>
-  <Path>objects/props/industrial/radiator/radiator_2m_lod3.cgf</Path>
-  <Path>objects/props/industrial/radiator/radiator_2m_lod4.cgf</Path>
-  <Path>objects/props/industrial/radiator/radiator_2m_lod5.cgf</Path>
   <Path>objects/props/industrial/tanks/oil_tank/oil_tank_a.cgf</Path>
-  <Path>objects/props/industrial/tanks/oil_tank/oil_tank_b.cgf</Path>
   <Path>objects/props/industrial/tanks/water_tank/water_tank.cgf</Path>
   <Path>objects/props/industrial/tanks/water_tank/water_tank.mtl</Path>
-  <Path>objects/props/industrial/trainyard/coal_bins/coal_bin_a.cgf</Path>
-  <Path>objects/props/industrial/trainyard/coal_bins/coal_bin_b.cgf</Path>
-  <Path>objects/props/industrial/trainyard/rail_bumper/rail_bumper.cgf</Path>
-  <Path>objects/props/industrial/trainyard/signal/signal_a.cgf</Path>
-  <Path>objects/props/industrial/trainyard/signal/signal_a_lod1.cgf</Path>
-  <Path>objects/props/industrial/trainyard/signal/signal_a_lod2.cgf</Path>
-  <Path>objects/props/industrial/trainyard/signal/signal_b.cgf</Path>
-  <Path>objects/props/industrial/trainyard/signal/signal_b_lod1.cgf</Path>
-  <Path>objects/props/industrial/trainyard/signal/signal_b_lod2.cgf</Path>
-  <Path>objects/props/industrial/trainyard/signal/signal_c.cgf</Path>
-  <Path>objects/props/industrial/trainyard/signal/signal_c_lod1.cgf</Path>
-  <Path>objects/props/industrial/trainyard/signal/signal_c_lod2.cgf</Path>
-  <Path>objects/props/industrial/trainyard/water_crane/small_water_crane.cgf</Path>
-  <Path>objects/props/industrial/trainyard/water_crane/small_water_crane_lod1.cgf</Path>
-  <Path>objects/props/industrial/trainyard/water_crane/small_water_crane_lod2.cgf</Path>
+  <Path>objects/props/industrial/trainyard/trains/locos/l_steam/textures/cabine_ddna.dds</Path>
+  <Path>objects/props/industrial/trainyard/trains/locos/l_steam/textures/cabine_diff.dds</Path>
+  <Path>objects/props/industrial/trainyard/trains/locos/l_steam/textures/cabine_spec.dds</Path>
   <Path>objects/props/industrial/trainyard/water_crane/water_crane.cgf</Path>
   <Path>objects/props/industrial/trainyard/water_crane/water_crane_lod1.cgf</Path>
   <Path>objects/props/industrial/trainyard/water_crane/water_crane_lod2.cgf</Path>
+  <Path>objects/props/maritime/buoy/textures/buoy_diff.dds</Path>
+  <Path>objects/props/maritime/buoy/textures/buoy_spec.dds</Path>
   <Path>objects/props/maritime/fisher_boat/fishing_boat.cgf</Path>
   <Path>objects/props/maritime/fisher_boat/fishing_boat_lod1.cgf</Path>
   <Path>objects/props/maritime/fisher_boat/fishing_boat_lod2.cgf</Path>
@@ -992,13 +1006,24 @@
   <Path>objects/props/maritime/fisher_boat/outboard_motor.cgf</Path>
   <Path>objects/props/maritime/fisher_boat/outboard_motor_lod1.cgf</Path>
   <Path>objects/props/maritime/fisher_boat/outboard_motor_lod2.cgf</Path>
+  <Path>objects/props/maritime/fisher_boat/textures/buoy.dds</Path>
+  <Path>objects/props/maritime/fisher_boat/textures/buoy_ddn.dds</Path>
+  <Path>objects/props/maritime/fisher_boat/textures/buoy_ddna.dds</Path>
+  <Path>objects/props/maritime/fisher_boat/textures/buoy_spec.dds</Path>
   <Path>objects/props/maritime/windsock/windsock.cga</Path>
+  <Path>objects/props/mine/chaff.mtl</Path>
   <Path>objects/props/misc/3dtext/e.cgf</Path>
   <Path>objects/props/misc/3dtext/h.cgf</Path>
   <Path>objects/props/misc/3dtext/l.cgf</Path>
   <Path>objects/props/misc/3dtext/o.cgf</Path>
+  <Path>objects/props/misc/camp_fires/camp_fire_set/camp_fire_set.mtl</Path>
+  <Path>objects/props/misc/chinese_lantern/chinese_lantern.mtl</Path>
   <Path>objects/props/misc/cloth/cloth_cryengine.mtl</Path>
   <Path>objects/props/misc/ctf/flag_neutral_small.cgf</Path>
+  <Path>objects/props/misc/lights/candles/holder_standing_a/textures/candle_holder_standing_a_diff.dds</Path>
+  <Path>objects/props/misc/lights/candles/holder_standing_a/textures/candle_holder_standing_a_spec.dds</Path>
+  <Path>objects/props/misc/lights/candles/holder_wall_a/candle_holder_wall_a.mtl</Path>
+  <Path>objects/props/misc/vehicles/chenyan/chenyan.mtl</Path>
   <Path>objects/props/misc/vehicles/spaceship/spaceship.cgf</Path>
   <Path>objects/props/misc/vehicles/tractor/tractor.cgf</Path>
   <Path>objects/props/misc/vehicles/tractor/tractor.mtl</Path>
@@ -1075,10 +1100,13 @@
   <Path>objects/weapons/ammo/ammo_crate/magazine_rifle_x2.cgf</Path>
   <Path>objects/weapons/ammo/ammo_crate/magazine_rifle_x3.cgf</Path>
   <Path>objects/weapons/ammo/ammo_crate/magazine_rifle_x4.cgf</Path>
+  <Path>objects/weapons/ammo/claymore/claymore.mtl</Path>
   <Path>objects/weapons/ammo/rockets/sidewinder/sidewinder.cgf</Path>
   <Path>objects/weapons/ammo/shells/shell_556/shell_556.cgf</Path>
   <Path>objects/weapons/attachments/flash_light/flash_light.cgf</Path>
   <Path>objects/weapons/attachments/flash_light/flash_light_lod1.cgf</Path>
+  <Path>objects/weapons/attachments/laser_beam/laser_beam.cgf</Path>
+  <Path>objects/weapons/attachments/laser_beam/laser_beam.mtl</Path>
   <Path>objects/weapons/attachments/pistol_magazine/pistol_magazine_fp.cgf</Path>
   <Path>objects/weapons/attachments/pistol_magazine/pistol_magazine_inc_fp.cgf</Path>
   <Path>objects/weapons/attachments/pistol_magazine/pistol_magazine_inc_tp.cgf</Path>
@@ -1088,6 +1116,8 @@
   <Path>objects/weapons/attachments/sniper/sniper_scope_a_tp_lod1.cgf</Path>
   <Path>objects/weapons/attachments/sniper/sniper_scope_a_tp_lod2.cgf</Path>
   <Path>objects/weapons/attachments/sniper/sniper_scope_a_zoom.cgf</Path>
+  <Path>objects/weapons/c4/c4_off.mtl</Path>
+  <Path>objects/weapons/c4/c4_tp.mtl</Path>
   <Path>objects/weapons/equipment/medical_kit/medical_kit_bag_tp.cgf</Path>
   <Path>objects/weapons/equipment/medical_kit/medical_kit_bag_tp_lod1.cgf</Path>
   <Path>objects/weapons/frag_grenade/frag_grenade.cdf</Path>
@@ -1166,10 +1196,176 @@
   <Path>scripts/entities/vehicles/lights/defaultvehiclelights.xml</Path>
   <Path>scripts/entities/vehicles/vehiclepool.lua</Path>
   <Path>scripts/physics.lua</Path>
+  <Path>textures/decals/dirt/decal_burned_22.dds</Path>
+  <Path>textures/decals/dirt/decal_burned_22_ddna.dds</Path>
+  <Path>textures/decals/dirt/decal_mud_soil_a_diff.dds</Path>
+  <Path>textures/decals/dirt/dirt_047.dds</Path>
+  <Path>textures/decals/dirt/dirt_047_ddna.dds</Path>
+  <Path>textures/decals/dirt/dirt_050.dds</Path>
+  <Path>textures/decals/dirt/dirt_051.dds</Path>
+  <Path>textures/decals/dirt/dirt_051_ddna.dds</Path>
+  <Path>textures/decals/dirt/dirt_1.dds</Path>
+  <Path>textures/decals/dirt/dirt_10.dds</Path>
+  <Path>textures/decals/dirt/dirt_10_ddna.dds</Path>
+  <Path>textures/decals/dirt/dirt_11.dds</Path>
+  <Path>textures/decals/dirt/dirt_11_ddna.dds</Path>
+  <Path>textures/decals/dirt/dirt_1_ddna.dds</Path>
+  <Path>textures/decals/dirt/dirt_2.dds</Path>
+  <Path>textures/decals/dirt/dirt_2_ddna.dds</Path>
+  <Path>textures/decals/dirt/dirt_3.dds</Path>
+  <Path>textures/decals/dirt/dirt_3_ddna.dds</Path>
+  <Path>textures/decals/dirt/dirt_4.dds</Path>
+  <Path>textures/decals/dirt/dirt_4_ddna.dds</Path>
+  <Path>textures/decals/dirt/dirt_5.dds</Path>
+  <Path>textures/decals/dirt/dirt_5_ddna.dds</Path>
+  <Path>textures/decals/dirt/dirt_6.dds</Path>
+  <Path>textures/decals/dirt/dirt_7.dds</Path>
+  <Path>textures/decals/dirt/dirt_7_ddna.dds</Path>
+  <Path>textures/decals/dirt/dirt_9.dds</Path>
+  <Path>textures/decals/dirt/dirt_leaking_1.dds</Path>
+  <Path>textures/decals/dirt/dirt_leaking_2.dds</Path>
+  <Path>textures/decals/dirt/dirt_mud_1.dds</Path>
+  <Path>textures/decals/dirt/dirt_mud_1_ddna.dds</Path>
+  <Path>textures/decals/dirt/dirt_on_road_1.dds</Path>
+  <Path>textures/decals/dirt/dirt_on_road_16.dds</Path>
+  <Path>textures/decals/dirt/dirt_on_road_16_ddna.dds</Path>
+  <Path>textures/decals/dirt/dirt_on_road_16_displ.dds</Path>
+  <Path>textures/decals/dirt/explosion_metal.dds</Path>
+  <Path>textures/decals/dirt/explosionhighres.dds</Path>
+  <Path>textures/decals/dirt/field_mud_water_ddna.dds</Path>
+  <Path>textures/decals/dirt/field_mud_water_displ.dds</Path>
+  <Path>textures/decals/dirt/terrain_soil_spec.dds</Path>
+  <Path>textures/decals/dirt/wall_dirt_2.dds</Path>
+  <Path>textures/decals/metal/bulletdecal.dds</Path>
+  <Path>textures/decals/metal/bulletdecal_ddna.dds</Path>
+  <Path>textures/decals/metal/drain_ddna.dds</Path>
+  <Path>textures/decals/metal/drain_diff.dds</Path>
+  <Path>textures/decals/metal/drain_spec.dds</Path>
+  <Path>textures/decals/metal/manhole_02.dds</Path>
+  <Path>textures/decals/metal/manhole_03.dds</Path>
+  <Path>textures/decals/metal/manhole_03_ddna.dds</Path>
+  <Path>textures/decals/metal/manhole_03_spec.dds</Path>
+  <Path>textures/decals/metal/manhole_rectangle.dds</Path>
+  <Path>textures/decals/metal/manhole_rectangle_ddna.dds</Path>
+  <Path>textures/decals/metal/manhole_rectangle_displ.dds</Path>
+  <Path>textures/decals/metal/manhole_round.dds</Path>
+  <Path>textures/decals/metal/manhole_round_ddna.dds</Path>
+  <Path>textures/decals/metal/manhole_round_displ.dds</Path>
+  <Path>textures/decals/metal/metal_tin_spec.dds</Path>
+  <Path>textures/decals/mud/dirt_on_road_14.dds</Path>
+  <Path>textures/decals/mud/dirt_on_road_14_ddna.dds</Path>
+  <Path>textures/decals/mud/dirt_on_road_14_displ.dds</Path>
+  <Path>textures/decals/mud/dirt_on_road_15.dds</Path>
+  <Path>textures/decals/mud/dirt_on_road_15_ddna.dds</Path>
+  <Path>textures/decals/mud/dirt_on_road_15_displ.dds</Path>
+  <Path>textures/decals/mud/dirt_tracks_ddna.dds</Path>
+  <Path>textures/decals/mud/dirt_tracks_diff.dds</Path>
+  <Path>textures/decals/mud/mud_10_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_10_dif.dds</Path>
+  <Path>textures/decals/mud/mud_10_displ.dds</Path>
+  <Path>textures/decals/mud/mud_11_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_11_dif.dds</Path>
+  <Path>textures/decals/mud/mud_11_displ.dds</Path>
+  <Path>textures/decals/mud/mud_12_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_12_dif.dds</Path>
+  <Path>textures/decals/mud/mud_12_displ.dds</Path>
+  <Path>textures/decals/mud/mud_14_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_14_dif.dds</Path>
+  <Path>textures/decals/mud/mud_14_displ.dds</Path>
+  <Path>textures/decals/mud/mud_15_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_15_dif.dds</Path>
+  <Path>textures/decals/mud/mud_15_displ.dds</Path>
+  <Path>textures/decals/mud/mud_16_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_16_dif.dds</Path>
+  <Path>textures/decals/mud/mud_16_displ.dds</Path>
+  <Path>textures/decals/mud/mud_1_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_1_dif.dds</Path>
+  <Path>textures/decals/mud/mud_1_displ.dds</Path>
+  <Path>textures/decals/mud/mud_2_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_2_dif.dds</Path>
+  <Path>textures/decals/mud/mud_2_displ.dds</Path>
+  <Path>textures/decals/mud/mud_6_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_6_diff.dds</Path>
+  <Path>textures/decals/mud/mud_6_displ.dds</Path>
+  <Path>textures/decals/mud/mud_9_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_9_dif.dds</Path>
+  <Path>textures/decals/mud/mud_9_displ.dds</Path>
+  <Path>textures/decals/mud/mud_puddle_1.dds</Path>
+  <Path>textures/decals/mud/mud_puddle_1_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_puddle_2.dds</Path>
+  <Path>textures/decals/mud/mud_puddle_2_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_wet_1_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_wet_1_dif.dds</Path>
+  <Path>textures/decals/mud/mud_wet_1_displ.dds</Path>
+  <Path>textures/decals/mud/mud_wet_2_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_wet_2_dif.dds</Path>
+  <Path>textures/decals/mud/mud_wet_2_displ.dds</Path>
+  <Path>textures/decals/mud/mud_wet_3_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_wet_3_dif.dds</Path>
+  <Path>textures/decals/mud/mud_wet_3_displ.dds</Path>
+  <Path>textures/decals/mud/mud_wet_5_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_wet_5_dif.dds</Path>
+  <Path>textures/decals/mud/mud_wet_5_displ.dds</Path>
+  <Path>textures/decals/mud/mud_wet_7_ddna.dds</Path>
+  <Path>textures/decals/mud/mud_wet_7_diff.dds</Path>
+  <Path>textures/decals/mud/mud_wet_7_displ.dds</Path>
+  <Path>textures/decals/mud/river_ground_ddna.dds</Path>
+  <Path>textures/decals/mud/river_ground_diff.dds</Path>
+  <Path>textures/decals/mud/river_ground_displ.dds</Path>
+  <Path>textures/decals/mud/road_muddy_off_10_decal.dds</Path>
+  <Path>textures/decals/mud/road_muddy_off_10_decal_ddna.dds</Path>
+  <Path>textures/decals/mud/road_muddy_off_10_decal_displ.dds</Path>
+  <Path>textures/decals/mud/road_muddy_off_11_decal.dds</Path>
+  <Path>textures/decals/mud/road_muddy_off_11_decal_ddna.dds</Path>
+  <Path>textures/decals/mud/road_muddy_off_11_decal_displ.dds</Path>
+  <Path>textures/decals/mud/road_muddy_off_21_decal.dds</Path>
+  <Path>textures/decals/mud/road_muddy_off_21_decal_ddna.dds</Path>
+  <Path>textures/decals/mud/road_muddy_off_21_decal_displ.dds</Path>
+  <Path>textures/decals/mud/road_muddy_off_22_decal.dds</Path>
+  <Path>textures/decals/mud/road_muddy_off_22_decal_ddna.dds</Path>
+  <Path>textures/decals/mud/road_muddy_off_22_decal_displ.dds</Path>
   <Path>textures/decals/rock/bullet_rockforest.dds</Path>
+  <Path>textures/decals/rubbish/cable_trash.dds</Path>
+  <Path>textures/decals/rubbish/cable_trash_ddn.dds</Path>
+  <Path>textures/decals/wood/bullet_wood.dds</Path>
+  <Path>textures/decals/wood/bullet_wood_ddna.dds</Path>
   <Path>textures/defaults/default_mat_warning.dds</Path>
+  <Path>textures/detail_bumpmaps/metal/brushed_metal_detail.dds</Path>
+  <Path>textures/generic/ash/burned_ash_ddna.dds</Path>
+  <Path>textures/generic/ash/burned_ash_decal.dds</Path>
+  <Path>textures/generic/blend_masks/brick_blend.dds</Path>
+  <Path>textures/generic/blend_masks/brick_moss_blend_mask.dds</Path>
+  <Path>textures/generic/brick/brick_clean_ddna.dds</Path>
+  <Path>textures/generic/brick/brick_clean_diff.dds</Path>
+  <Path>textures/generic/brick/brick_clean_displ.dds</Path>
+  <Path>textures/generic/brick/brick_old_ddna.dds</Path>
+  <Path>textures/generic/brick/brick_old_diff.dds</Path>
+  <Path>textures/generic/brick/brick_old_displ.dds</Path>
+  <Path>textures/generic/brick/brick_raw_blend.dds</Path>
+  <Path>textures/generic/brick/brick_raw_ddna.dds</Path>
+  <Path>textures/generic/brick/brick_raw_diff.dds</Path>
+  <Path>textures/generic/brick/brick_raw_displ.dds</Path>
+  <Path>textures/generic/brick/brick_smooth_moss_ddna.dds</Path>
+  <Path>textures/generic/brick/brick_smooth_moss_diff.dds</Path>
+  <Path>textures/generic/brick/brick_wall02_ddna.dds</Path>
+  <Path>textures/generic/brick/brick_wall02_diff.dds</Path>
+  <Path>textures/generic/brick/brick_wall_red_ddna.dds</Path>
+  <Path>textures/generic/brick/brick_wall_red_diff.dds</Path>
+  <Path>textures/generic/brick/brick_wall_red_displ.dds</Path>
+  <Path>textures/generic/displacement/bumps_ddn.dds</Path>
+  <Path>textures/generic/displacement/bumps_displ.dds</Path>
+  <Path>textures/generic/displacement/burn2_displ.dds</Path>
+  <Path>textures/generic/displacement/burn_displ.dds</Path>
+  <Path>textures/generic/displacement/caustic_ddn.dds</Path>
+  <Path>textures/generic/displacement/caustic_displ.dds</Path>
+  <Path>textures/generic/metal/cable_ddna.dds</Path>
+  <Path>textures/generic/metal/cable_diff.dds</Path>
+  <Path>textures/generic/metal/cargo_ship_metal_ddna.dds</Path>
+  <Path>textures/generic/metal/cargo_ship_metal_diff.dds</Path>
+  <Path>textures/generic/metal/cargo_ship_metal_spec.dds</Path>
   <Path>textures/generic/metal/rusted_steel_ddna.dds</Path>
   <Path>textures/generic/metal/rusted_steel_diff.dds</Path>
+  <Path>textures/lights/ce_logo_black.dds</Path>
   <Path>textures/lights/flashlight_projector.dds</Path>
   <Path>textures/lights/lens_flares/circular_bokeh_blurry.dds</Path>
   <Path>textures/lights/lens_flares/element_smoke.dds</Path>
@@ -1179,6 +1375,29 @@
   <Path>textures/lights/lens_flares/orbs_lines2.dds</Path>
   <Path>textures/lights/lens_flares/orbs_round2.dds</Path>
   <Path>textures/lights/lens_flares/visor_scratch.dds</Path>
+  <Path>textures/references/bricks.dds</Path>
+  <Path>textures/skys/day/box_34.dds</Path>
+  <Path>textures/skys/day/box_5.dds</Path>
+  <Path>textures/skys/day2/box_34.dds</Path>
+  <Path>textures/skys/day2/box_5.dds</Path>
+  <Path>textures/skys/day3/box_12.dds</Path>
+  <Path>textures/skys/day3/box_34.dds</Path>
+  <Path>textures/skys/day3/box_5.dds</Path>
+  <Path>textures/skys/day_cloud_far/box_34.dds</Path>
+  <Path>textures/skys/day_cloud_far/box_5.dds</Path>
+  <Path>textures/skys/evening/box_12.dds</Path>
+  <Path>textures/skys/evening/box_34.dds</Path>
+  <Path>textures/skys/evening/box_5.dds</Path>
+  <Path>textures/skys/evening_overcast/box_34.dds</Path>
+  <Path>textures/skys/evening_overcast/box_5.dds</Path>
+  <Path>textures/skys/gray_cloudy/box_34.dds</Path>
+  <Path>textures/skys/gray_cloudy/box_5.dds</Path>
+  <Path>textures/skys/night_overcast/box_34.dds</Path>
+  <Path>textures/skys/night_overcast/box_5.dds</Path>
+  <Path>textures/skys/rain/box_34.dds</Path>
+  <Path>textures/skys/rain/box_5.dds</Path>
+  <Path>textures/skys/rain_incomming/box_34.dds</Path>
+  <Path>textures/skys/rain_incomming/box_5.dds</Path>
   <Path>textures/sprites/blood/blood_a.dds</Path>
   <Path>textures/sprites/blood/blood_anim_a.dds</Path>
   <Path>textures/sprites/blood/blood_tiled_a.dds</Path>
@@ -1203,6 +1422,8 @@
   <Path>textures/sprites/hud/blood2_bullet.dds</Path>
   <Path>textures/sprites/hud/blood3_bullet.dds</Path>
   <Path>textures/sprites/hud/dirt1_bullet.dds</Path>
+  <Path>textures/sprites/hud/dirt2_bullet.dds</Path>
+  <Path>textures/sprites/hud/dirt3_bullet.dds</Path>
   <Path>textures/sprites/leaves/leaf_tiled_a.dds</Path>
   <Path>textures/sprites/leaves/leaf_tiled_b.dds</Path>
   <Path>textures/sprites/lightning/electric_radial1.dds</Path>
@@ -1238,6 +1459,7 @@
   <Path>textures/sprites/stones/stones_tiled.dds</Path>
   <Path>textures/sprites/stones/stones_tiled_a.dds</Path>
   <Path>textures/sprites/water/bubble_a.dds</Path>
+  <Path>textures/sprites/water/bubbles_a.dds</Path>
   <Path>textures/sprites/water/heli_wake.dds</Path>
   <Path>textures/sprites/water/ripple_a.dds</Path>
   <Path>textures/sprites/water/shockwave_grey.dds</Path>

@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Main" FullName="Main" GUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1648538746">
+ <Layer Name="Main" FullName="Main" GUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1648542609">
   <LayerObjects>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="41ec3faf-2e6a-9816-98b6-b06485a0d372" Name="palm_tree_large_e_con-1" Pos="111.50838,103.30626,32.000324" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/trees/palm_tree/palm_tree_large_e_con.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
@@ -695,7 +695,7 @@
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
     </Properties2>
    </Object>
-   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="a4b3f428-cb67-773d-5ca7-15e26346b86b" Name="Tornado-1" Pos="43.204895,74.816811,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Tornado" HasEntity="1">
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="a4b3f428-cb67-773d-5ca7-15e26346b86b" Name="Tornado-1" Pos="43.204895,183.11288,31.999756" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Tornado" HasEntity="1">
     <Properties fAttractionImpulse="13" fCloudHeight="376" FunnelEffect="weather.tornado.large" Radius="30" fSpinImpulse="9" fUpImpulse="18" fWanderSpeed="10"/>
    </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="845ebde7-989e-238c-060a-75744640c67d" Name="barbwire_fence_2m-232" Pos="136.44107,211.0744,31.932039" Rotate="0.690229,0,0,-0.72359097" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
@@ -1022,17 +1022,17 @@
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
     </CollisionFiltering>
    </Object>
-   <Object VolumeDepth="10" StreamSpeed="1000" FogDensity="0.5" FogColor="0.00500496,0.00999466,0.0200046" FogColorMultiplier="0.5" FogColorAffectedBySun="1" FogShadowing="0.5" UScale="1" VScale="1" CapFogAtVolumeDepth="0" Caustics="1" CausticIntensity="1" CausticTiling="1" CausticHeight="0.5" Type="River" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="aa1060ff-1905-4af6-2d0b-314f2eb67ca4" Name="River-2" Pos="254.91536,116.83981,31.291632" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16711680" UseCustomLevelLayerColor="0" Material="%ENGINE%/EngineAssets/Materials/Water/Ocean_default" MinSpec="0" Width="31.5" BorderWidth="6" EraseVegWidth="3" EraseVegWidthVar="0" StepSize="4" ViewDistRatio="100" TileLength="4">
+   <Object VolumeDepth="10" StreamSpeed="1000" FogDensity="0.5" FogColor="0.00500496,0.00999466,0.0200046" FogColorMultiplier="0.5" FogColorAffectedBySun="1" FogShadowing="0.5" UScale="1" VScale="1" CapFogAtVolumeDepth="0" Caustics="1" CausticIntensity="1" CausticTiling="1" CausticHeight="0.5" Type="River" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="aa1060ff-1905-4af6-2d0b-314f2eb67ca4" Name="River-2" Pos="513.24738,109.91214,31.291632" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16711680" UseCustomLevelLayerColor="0" Material="%ENGINE%/EngineAssets/Materials/Water/Ocean_default" MinSpec="0" Width="31.5" BorderWidth="6" EraseVegWidth="3" EraseVegWidthVar="0" StepSize="4" ViewDistRatio="100" TileLength="4">
     <Points>
-     <Point Pos="0,0,0" Back="0,0,0" Forw="-22.912331,0.69444162,-0.34511557" Angle="0" Width="0" IsDefaultWidth="1"/>
-     <Point Pos="-68.674057,3.6455917,-0.876894" Back="-45.8606,1.3899724,-0.69077247" Forw="-71.402557,3.9153647,-0.89915419" Angle="0" Width="0" IsDefaultWidth="1"/>
-     <Point Pos="-75.93219,7.5075912,-0.61948586" Back="-73.261848,6.8854051,-0.60833597" Forw="-87.526886,10.209139,-0.66789895" Angle="0" Width="0" IsDefaultWidth="1"/>
-     <Point Pos="-111.13275,13.538406,-1.0541782" Back="-99.297127,12.253487,-1.1223578" Forw="-121.35209,14.647856,-0.99530929" Angle="0" Width="0" IsDefaultWidth="1"/>
-     <Point Pos="-141.93973,14.673615,-0.23924637" Back="-131.70578,13.714411,-0.11536257" Forw="-145.40501,14.998408,-0.28119424" Angle="0" Width="0" IsDefaultWidth="1"/>
-     <Point Pos="-151.94421,17.363571,-1.5482082" Back="-148.46492,17.276249,-1.4997485" Forw="-160.68289,17.582891,-1.6699209" Angle="0" Width="0" IsDefaultWidth="1"/>
-     <Point Pos="-178.09799,15.5811,-0.74286079" Back="-169.36653,15.999099,-0.8620916" Forw="-187.32521,15.139368,-0.61686015" Angle="0" Width="0" IsDefaultWidth="1"/>
-     <Point Pos="-205.80243,14.785233,-0.81275749" Back="-196.56918,15.059879,-0.96881151" Forw="-222.04782,14.302006,-0.53818893" Angle="0" Width="0" IsDefaultWidth="1"/>
-     <Point Pos="-254.52573,13.307724,0.54886818" Back="-238.28752,13.804842,0.0053645372" Forw="-254.52573,13.307724,0.54886818" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="-109.01938,2.9338241,-0.33746743" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-327.00607,10.573265,-0.876894" Back="-218.04843,5.8679085,-0.67496479" Forw="-329.74542,10.691564,-0.88197076" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-334.26422,14.435265,-0.61948586" Back="-331.59387,13.813077,-0.60833597" Forw="-345.85892,17.136812,-0.66789895" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-369.46478,20.46608,-1.0541782" Back="-357.62915,19.18116,-1.122358" Forw="-379.68411,21.575527,-0.99530929" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-400.27173,21.601288,-0.23924637" Back="-390.03778,20.642084,-0.11536269" Forw="-403.73703,21.926083,-0.28119436" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-410.27625,24.291245,-1.5482082" Back="-406.79694,24.203922,-1.4997483" Forw="-419.01489,24.510565,-1.6699208" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-436.42999,22.508774,-0.74286079" Back="-427.69855,22.926771,-0.86209148" Forw="-445.65723,22.067041,-0.61686003" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-464.13446,21.712906,-0.81275749" Back="-454.90121,21.987553,-0.96881169" Forw="-480.37985,21.229679,-0.53818911" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-512.85773,20.235397,0.54886818" Back="-496.61954,20.732515,0.0053642392" Forw="-512.85773,20.235397,0.54886818" Angle="0" Width="0" IsDefaultWidth="1"/>
     </Points>
    </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="795d9c13-2b83-f6df-3b7f-d8dc0e8a7cb1" Name="Human-6" Pos="9.8596687,100.28852,32.208771" Rotate="0.84540445,0,0,-0.5341267" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
@@ -2294,6 +2294,12 @@
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
     </Properties2>
    </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="169e57eb-5850-c3d4-0c8e-e97414e57a47" Name="gatehouse_groundplate-7" Pos="63.803356,196.53749,34.432728" Rotate="0.67768079,0.13603702,0.14254993,-0.70846468" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/buildings/gatehouse/gatehouse_groundplate.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="b462e819-c97a-4b2a-c604-e58ff677df4d" Name="gamesdk-1" Pos="29.894905,101.06467,31.99832" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="gamesdk.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
@@ -3175,10 +3181,10 @@
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
     </CollisionFiltering>
    </Object>
-   <Object VolumeDepth="10" StreamSpeed="1000" FogDensity="0.5" FogColor="0.00500496,0.00999466,0.0200046" FogColorMultiplier="0.5" FogColorAffectedBySun="1" FogShadowing="0.5" UScale="1" VScale="1" CapFogAtVolumeDepth="0" Caustics="1" CausticIntensity="1" CausticTiling="1" CausticHeight="0.5" Type="River" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="7eb1d141-611a-6edd-a74a-47902a204b6f" Name="River-1" Pos="130.00017,-11.064081,29.586002" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16711680" UseCustomLevelLayerColor="0" Material="%ENGINE%/EngineAssets/Materials/Water/Ocean_default" MinSpec="0" Width="25" BorderWidth="6" EraseVegWidth="3" EraseVegWidthVar="0" StepSize="4" ViewDistRatio="100" TileLength="4">
+   <Object VolumeDepth="10" StreamSpeed="1000" FogDensity="0.5" FogColor="0.00500496,0.00999466,0.0200046" FogColorMultiplier="0.5" FogColorAffectedBySun="1" FogShadowing="0.5" UScale="1" VScale="1" CapFogAtVolumeDepth="0" Caustics="1" CausticIntensity="1" CausticTiling="1" CausticHeight="0.5" Type="River" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="7eb1d141-611a-6edd-a74a-47902a204b6f" Name="River-1" Pos="136.91068,-11.064081,29.586002" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16711680" UseCustomLevelLayerColor="0" Material="%ENGINE%/EngineAssets/Materials/Water/Ocean_default" MinSpec="0" Width="27" BorderWidth="6" EraseVegWidth="3" EraseVegWidthVar="0" StepSize="4" ViewDistRatio="100" TileLength="4">
     <Points>
-     <Point Pos="0,0,0" Back="0,0,0" Forw="4.8529716,88.852509,0.72566736" Angle="0" Width="0" IsDefaultWidth="1"/>
-     <Point Pos="14.558914,266.55753,2.177002" Back="9.7059422,177.70502,1.4513346" Forw="14.558914,266.55753,2.177002" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="4.8529716,175.1599,0.72566736" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="14.558914,525.47968,2.177002" Back="9.7059422,350.31976,1.4513346" Forw="14.558914,525.47968,2.177002" Angle="0" Width="0" IsDefaultWidth="1"/>
     </Points>
    </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="d167854a-ccd6-5b07-767c-2d937981506c" Name="barbwire_fence_2m-196" Pos="134.80443,216.96025,41.527626" Rotate="0.690229,0,0,-0.72359097" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
@@ -3469,7 +3475,7 @@
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
     </Properties2>
    </Object>
-   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="826fae7e-81aa-a20e-408e-efc1f077e647" Name="Human-142" Pos="56.262794,214.44859,33.455822" Rotate="0.70710623,0,0,-0.70710731" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="826fae7e-81aa-a20e-408e-efc1f077e647" Name="Human-142" Pos="56.262794,214.44859,33.455822" Rotate="0.70710629,0,0,-0.70710731" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
     <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
      <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
      <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
@@ -5267,6 +5273,22 @@
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
     </Properties2>
    </Object>
+   <Object VolumeDepth="10" StreamSpeed="1000" FogDensity="0.5" FogColor="0.00500496,0.00999466,0.0200046" FogColorMultiplier="0.5" FogColorAffectedBySun="1" FogShadowing="0.5" UScale="1" VScale="1" CapFogAtVolumeDepth="0" Caustics="1" CausticIntensity="1" CausticTiling="1" CausticHeight="0.5" Type="River" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="f1d51ea1-7605-8437-d0d3-e68baa75f0e8" Name="River-4" Pos="511.8877,214.14651,31.328896" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16711680" UseCustomLevelLayerColor="0" Material="%ENGINE%/EngineAssets/Materials/Water/Ocean_default" MinSpec="0" Width="30" BorderWidth="6" EraseVegWidth="3" EraseVegWidthVar="0" StepSize="4" ViewDistRatio="100" TileLength="4">
+    <Points>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="-14.051332,3.2187042,-0.060083553" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-42.490417,8.0437622,-0.30864334" Back="-28.164457,6.4515634,-0.12043133" Forw="-52.719761,9.1806593,-0.44303471" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-73.362885,8.1536102,-0.96382904" Back="-63.10247,7.3365331,-0.88388139" Forw="-80.813118,8.7469015,-1.0218801" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-95.404907,12.257553,-0.72094536" Back="-88.222229,10.191065,-0.71291167" Forw="-120.52229,19.483931,-0.74903876" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-170.13342,35.994904,-1.0720654" Back="-144.7549,29.747871,-1.166587" Forw="-193.68468,41.792145,-0.98434937" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-241.84244,48.303772,-0.17554283" Back="-217.73477,45.640049,-0.22193298" Forw="-257.08817,49.988312,-0.14620565" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-287.84784,49.001495,-0.84554863" Back="-272.51147,49.243382,-0.75975865" Forw="-316.78552,48.54509,-1.0074228" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-374.62811,46.209473,-0.91833115" Back="-345.6955,46.934059,-0.86363226" Forw="-382.45822,46.013378,-0.93313444" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-398.12543,46.239716,-1.0540352" Back="-390.30429,45.817276,-1.026415" Forw="-412.61505,47.022343,-1.1052051" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-441.51019,49.82196,-1.1545238" Back="-427.00009,49.675423,-1.1645759" Forw="-452.40659,49.932003,-1.1469753" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-474.07928,47.006775,-1.0014172" Back="-463.18372,47.080669,-1.159276" Forw="-486.5994,46.921864,-0.82002139" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="-511.56155,49.346863,-0.13959503" Back="-499.10309,48.136562,-0.47919154" Forw="-511.56155,49.346863,-0.13959503" Angle="0" Width="0" IsDefaultWidth="1"/>
+    </Points>
+   </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="a166de39-4d89-805a-2fef-615ecbe43115" Name="flag_neutral_small-1" Pos="157.96654,190.64063,32.176193" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/props/misc/ctf/flag_neutral_small.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
@@ -6122,6 +6144,12 @@
      <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
     </Properties2>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="8e43e043-684c-931b-c6c7-4300525f423f" Name="gatehouse_groundplate-8" Pos="65.113876,224.24391,45.084789" Rotate="0.65228641,0.092533797,0.096600786,-0.74607521" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/buildings/gatehouse/gatehouse_groundplate.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
    </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="12edab03-073a-b26d-4ee6-8034845dd1a5" Name="Human-118" Pos="170.62149,189.32759,32.206768" Rotate="0.87811422,0,0,-0.47845104" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
     <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_red.cdf" nModelVariations="0" esModularBehaviorTree="SDK_Grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
@@ -7420,6 +7448,54 @@
      <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
     </Properties2>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="ea691222-0101-3419-8d8d-89df923a6f08" Name="Human-149" Pos="74.012108,222.78934,31.965378" Rotate="0.70710623,0,0,-0.70710731" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
+   <Object VolumeDepth="10" StreamSpeed="1000" FogDensity="0.5" FogColor="0.00500496,0.00999466,0.0200046" FogColorMultiplier="0.5" FogColorAffectedBySun="1" FogShadowing="0.5" UScale="1" VScale="1" CapFogAtVolumeDepth="0" Caustics="1" CausticIntensity="1" CausticTiling="1" CausticHeight="0.5" Type="River" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="f1eec849-9611-b5db-7254-50e416eb5fad" Name="River-5" Pos="259.62061,-0.79969025,29.586002" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16711680" UseCustomLevelLayerColor="0" Material="%ENGINE%/EngineAssets/Materials/Water/Ocean_default" MinSpec="0" Width="27" BorderWidth="6" EraseVegWidth="3" EraseVegWidthVar="0" StepSize="4" ViewDistRatio="100" TileLength="4">
+    <Points>
+     <Point Pos="0,0,0" Back="0,0,0" Forw="1.6612651,171.73843,0.72566736" Angle="0" Width="0" IsDefaultWidth="1"/>
+     <Point Pos="4.9837952,515.21527,2.177002" Back="3.3225298,343.47684,1.4513346" Forw="4.9837952,515.21527,2.177002" Angle="0" Width="0" IsDefaultWidth="1"/>
+    </Points>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="22f99674-5203-0dfb-1548-3de9ee6be086" Name="gatehouse_groundplate-6" Pos="64.481125,210.57681,40.313335" Rotate="0.67768079,0.13603702,0.14254993,-0.70846468" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/buildings/gatehouse/gatehouse_groundplate.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="bfa3a53f-3d58-49a5-9b7b-dd080a149329" Name="gatehouse_groundplate-9" Pos="67.972382,245.65796,48.539711" Rotate="0.66105264,0.052047752,0.019855602,-0.74826878" Scale="2.2657757,1.0000001,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/buildings/gatehouse/gatehouse_groundplate.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
    </Object>
   </LayerObjects>
  </Layer>
