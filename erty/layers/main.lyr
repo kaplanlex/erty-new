@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Main" FullName="Main" GUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1648464092">
+ <Layer Name="Main" FullName="Main" GUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1648538791">
   <LayerObjects>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="41ec3faf-2e6a-9816-98b6-b06485a0d372" Name="palm_tree_large_e_con-1" Pos="111.50838,103.30626,32.000324" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/trees/palm_tree/palm_tree_large_e_con.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
@@ -540,6 +540,12 @@
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
     </Properties2>
    </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="88ff3853-4801-e063-bc38-e103c55a6815" Name="bush_round_leaf_b-11" Pos="57.246712,204.89569,32.000237" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/bushes/bush_round_leaf/bush_round_leaf_b.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="dd448ebf-f076-92f5-20af-e2b1117ca6b6" Name="SpawnPoint-1" Pos="18.851315,27.594816,31.999023" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" Flags="4" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="SpawnPoint" HasEntity="1">
     <Properties bDoVisTest="1" bEnabled="1" groupName="" bInitialSpawn="0" teamName=""/>
     <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
@@ -556,6 +562,12 @@
      </Edges>
      <GraphTokens />
     </FlowGraph>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="dd2efc74-f57a-6eca-ad3a-f5ca1d814c9a" Name="electric_pole_c-1" Pos="74.309425,181.84904,31.997341" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/props/industrial/electrical/electric_pole/electric_pole_c.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
    </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="9c87f2e3-b17a-087e-2bb1-ea824c098e4c" Name="Human-1" Pos="96.547409,101.71156,32.208771" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
     <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_red.cdf" nModelVariations="0" esModularBehaviorTree="SDK_Grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
@@ -625,6 +637,36 @@
    </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="03d2d11e-59e0-d187-1167-e39935eebd88" Name="Human-2" Pos="93.189278,102.96033,32.20747" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
     <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_red.cdf" nModelVariations="0" esModularBehaviorTree="SDK_Grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="8046b5a8-053b-64f0-8cb9-0ff591b84a76" Name="Human-134" Pos="6.0891051,158.73245,31.962351" Rotate="0.70710659,0,0,-0.70710701" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
      <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
      <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
      <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
@@ -2258,36 +2300,6 @@
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
     </CollisionFiltering>
    </Object>
-   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="8547d676-d3b9-31e4-a011-7d9edc2fc43b" Name="Human-122" Pos="111.26031,204.95856,32.208649" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
-    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_red.cdf" nModelVariations="0" esModularBehaviorTree="SDK_Grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
-     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
-     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
-     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
-     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
-      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
-     </LipSync>
-     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
-      <TargetTracks classThreat="1" targetLimit="0"/>
-     </Perception>
-     <Physics>
-      <CollisionFiltering>
-       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
-       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
-      </CollisionFiltering>
-     </Physics>
-     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
-     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
-     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
-     <Rendering bWrinkleMap="0"/>
-    </Properties>
-    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
-     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
-     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
-     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
-     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
-    </Properties2>
-   </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="d61d8c2e-144c-4e13-ea62-2301083d57e1" Name="gamesdk-3" Pos="34.099895,103.2162,31.998322" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="gamesdk.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
@@ -2767,6 +2779,36 @@
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
     </Properties2>
    </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="2bb2bab6-a8bb-091e-3df8-bff7592910d2" Name="Human-148" Pos="89.751938,199.55049,38.371277" Rotate="0.81915253,0,0,0.57357574" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="e641e8ca-ec04-5a28-b164-31a976cf604f" Name="barbwire_fence_2m-43" Pos="45.91148,40.237644,32.192936" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
@@ -2982,6 +3024,36 @@
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
     </CollisionFiltering>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="e125224c-940c-4506-2f60-d32cc65c0ed8" Name="Human-143" Pos="56.262802,218.95488,31.965378" Rotate="0.70710623,0,0,-0.70710731" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
    </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="a4cddd2e-7b81-bbac-1539-4c8e8c66f268" Name="barbwire_fence_2m-64" Pos="84.570068,0.053157926,36.655495" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
@@ -3397,6 +3469,36 @@
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
     </Properties2>
    </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="826fae7e-81aa-a20e-408e-efc1f077e647" Name="Human-142" Pos="56.262794,214.44859,33.455822" Rotate="0.70710629,0,0,-0.70710731" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="bd5c8cd9-a576-e464-3237-621839676169" Name="barbwire_fence_2m-72" Pos="255.53049,90.401421,31.999428" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
@@ -3404,6 +3506,12 @@
     </CollisionFiltering>
    </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="bc72195b-4904-c389-17df-b016600190a1" Name="barbwire_fence_2m-73" Pos="255.53049,90.401421,34.289021" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="87ed42f8-d218-9731-9d1f-2a5d1c136cdb" Name="forestflower_a-1" Pos="81.131424,212.3624,32.000237" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/ground/forestgrass/forestflower_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
@@ -3545,6 +3653,12 @@
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
     </CollisionFiltering>
    </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="8b7a3ae7-faf5-0e15-859f-a197b2cef35f" Name="f_beech_bush_d-1" Pos="70.935646,209.34924,32.000237" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/trees/rocky_ravine/f_beech_bush_d.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="03bd8649-f441-f868-7f2f-bca134b179eb" Name="barbwire_fence_2m-111" Pos="224.30563,144.04698,31.932039" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
@@ -3557,6 +3671,36 @@
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
     </CollisionFiltering>
    </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="b66da0b6-52d6-da58-afce-a10cf63ce1c5" Name="Human-135" Pos="6.089107,161.92891,31.962351" Rotate="0.70710659,0,0,-0.70710701" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="66479296-2b84-ab3f-96dc-2e03b2ceb488" Name="barbwire_fence_2m-89" Pos="255.53049,101.71609,34.289021" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
@@ -3568,6 +3712,36 @@
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
     </CollisionFiltering>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="2522b7e3-d5e9-a44f-caca-d302b6581dba" Name="Human-131" Pos="115.07524,204.95856,31.962351" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Shotgun" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
    </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="30756c60-8eea-86ef-ec7e-407eae87f5dc" Name="barbwire_fence_2m-90" Pos="255.53049,101.71609,31.999428" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
@@ -4217,6 +4391,12 @@
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
     </CollisionFiltering>
    </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="01e016ec-9dc6-a1a2-bbe5-510d7d61387c" Name="deer_model-3" Pos="90.415176,206.26059,32.000237" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/characters/animals/deer/deer_model.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="6f89f118-a21a-404c-dec7-768ffba1b1b1" Name="hmmwv_static-3" Pos="214.36562,49.473087,31.998055" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/vehicles/hmmwv/hmmwv_static.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
@@ -4488,7 +4668,7 @@
     </Properties2>
    </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="2b9b1b85-ed5e-da22-f18d-5a6d641041fa" Name="Human-69" Pos="23.631872,81.396492,32.021709" Rotate="0.56290352,0,0,-0.82652265" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
-    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Shotgun" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
      <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
      <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
      <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
@@ -4788,6 +4968,12 @@
     <Properties HitPoints="0" initialSetup="" bMounted="0" eiPhysicsType="0" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
      <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
     </Properties>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="23fa6bff-1143-7bc1-c7a2-fdf9f666e257" Name="bush_round_leaf_b-10" Pos="58.237431,198.04074,32.00024" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/bushes/bush_round_leaf/bush_round_leaf_b.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
    </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="c1cb4b7c-fa42-d4e1-3b42-6698344054fa" Name="Flash-1" Pos="19.321367,33.298553,31.999329" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" Material="objects/characters/animals/reptiles/alligator/alligator" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Flash" HasEntity="1">
     <Properties>
@@ -5521,36 +5707,6 @@
      <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
     </Properties2>
    </Object>
-   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="5f299a61-c32d-2aaa-8e48-d498fc36d144" Name="Human-123" Pos="114.2573,204.95856,32.208649" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
-    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_red.cdf" nModelVariations="0" esModularBehaviorTree="SDK_Grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
-     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
-     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
-     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
-     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
-     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
-      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
-     </LipSync>
-     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
-      <TargetTracks classThreat="1" targetLimit="0"/>
-     </Perception>
-     <Physics>
-      <CollisionFiltering>
-       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
-       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
-      </CollisionFiltering>
-     </Physics>
-     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
-     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
-     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
-     <Rendering bWrinkleMap="0"/>
-    </Properties>
-    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
-     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
-     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
-     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
-     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
-    </Properties2>
-   </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="413f7cd5-c059-95c4-f5f8-88d45f2774d2" Name="dead_tree_root_a-2" Pos="248.88588,164.88188,31.996111" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/trees/dead_tree/dead_tree_root_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
@@ -5665,6 +5821,12 @@
     </Properties2>
    </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="faea39a0-7d2d-cba3-ec45-5ac8bb15d5e3" Name="barbwire_fence_2m-163" Pos="121.00475,213.6624,39.08527" Rotate="0.99972171,0,0,-0.023590563" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="901ba372-a7a1-c4a8-78d6-52505d6bbf5f" Name="f_beech_bush_b-1" Pos="74.351967,211.3844,32.000237" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/trees/rocky_ravine/f_beech_bush_b.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
@@ -6360,6 +6522,12 @@
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
     </CollisionFiltering>
    </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="b4adeb27-d5c7-13ff-ee89-14b97018979b" Name="grass_small_normal-1" Pos="58.028946,221.11319,32.000237" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/ground/grass/grass_small_normal.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="e920039f-065e-f324-7908-186da2d155e1" Name="barbwire_fence_2m-246" Pos="126.62774,211.53778,34.459827" Rotate="0.690229,0,0,-0.72359097" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
@@ -6468,6 +6636,36 @@
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
     </CollisionFiltering>
    </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="9c639b46-b6af-6d4c-2761-21c3dbd907b5" Name="Human-140" Pos="112.14573,232.55176,32.235199" Rotate="0.64278769,0,0,0.76604438" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="4439d6ff-1cbd-abc1-f8ac-3e9a9c43e76f" Name="barbwire_fence_2m-270" Pos="138.47157,214.80354,34.35379" Rotate="0.99972171,0,0,-0.023590563" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
@@ -6481,6 +6679,12 @@
     </CollisionFiltering>
    </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="5d0989f1-475a-6e2b-0c3e-74d28cb74148" Name="woodpath_pole-1" Pos="186.06482,211.37378,31.997644" Rotate="0.73727739,0,0,0.67559016" Scale="3.7415929,2.8501678,1.8396624" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/paths/wooden_pathway/woodpath_pole.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="8f61f6ef-4e12-1734-5154-2d726a01b6a2" Name="metal_electric_pole-1" Pos="66.692451,186.82909,32.000237" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/props/industrial/electrical/electric_pole/metal_electric_pole.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
@@ -6528,7 +6732,7 @@
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
     </CollisionFiltering>
    </Object>
-   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="fdcb5f16-4322-db75-5d08-e1e48a2e43e2" Name="x_trees_x2_10_scaled-2" Pos="102.55128,164.51952,31.998325" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/trees/x_trees/pine_x_tree/x_trees_x2_10_scaled.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="fdcb5f16-4322-db75-5d08-e1e48a2e43e2" Name="x_trees_x2_10_scaled-2" Pos="102.38155,164.50429,32.000324" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/trees/x_trees/pine_x_tree/x_trees_x2_10_scaled.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
@@ -6541,7 +6745,7 @@
     </CollisionFiltering>
    </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="d5568f56-a34e-028b-e0e9-81618f10c769" Name="Human-124" Pos="116.52115,204.95856,32.208649" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
-    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_red.cdf" nModelVariations="0" esModularBehaviorTree="SDK_Grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Pistol" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
      <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
      <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
      <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
@@ -6571,7 +6775,7 @@
     </Properties2>
    </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="b76b8a59-d6c9-1a75-ebef-f0711420f967" Name="Human-125" Pos="104.98837,170.72144,32.208771" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
-    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_red.cdf" nModelVariations="0" esModularBehaviorTree="SDK_Grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_hipster.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
      <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
      <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
      <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
@@ -6601,7 +6805,7 @@
     </Properties2>
    </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="93815837-2968-281d-071f-c293dc33383c" Name="Human-126" Pos="101.48698,165.7845,32.208771" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
-    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_red.cdf" nModelVariations="0" esModularBehaviorTree="SDK_Grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_beanie.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
      <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
      <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
      <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
@@ -6631,7 +6835,7 @@
     </Properties2>
    </Object>
    <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="8baabf11-c0f5-58e4-0d16-91f64f007e5b" Name="Human-127" Pos="103.97641,167.621,32.208771" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
-    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Grunts" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_red.cdf" nModelVariations="0" esModularBehaviorTree="SDK_Grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_beanie.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
      <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
      <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
      <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
@@ -6815,6 +7019,437 @@
      <Respawn bAbandon="1" nAbandonTimer="90" bRespawn="0" nTimer="30" bUnique="0"/>
     </Properties>
     <Properties2 bProvideAICover="1"/>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="c697c566-95bc-88e6-58f1-2129c511fd44" Name="Snow-2" Pos="45.432491,182.49884,30.021385" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Snow" HasEntity="1">
+    <Properties bEnabled="1" fRadius="50">
+     <SnowFall fBrightness="1" fGravityScale="0.1" nSnowFlakeCount="100" fSnowFlakeSize="1" fTurbulenceFreq="0.1" fTurbulenceStrength="0.5" fWindScale="0.1"/>
+     <Surface fFrostAmount="1" fSnowAmount="10" fSurfaceFreezing="1"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="9808f164-029f-94e7-3573-26585b375407" Name="Human-132" Pos="113.66591,204.95856,31.962351" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="a04a5ae3-d16f-f046-9643-6cb8a6452687" Name="Human-133" Pos="6.0891037,156.27339,31.962351" Rotate="0.70710659,0,0,-0.70710701" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="a97041a4-e69f-03c4-06aa-73a09422701e" Name="Shotgun-8" Pos="11.379089,241.79137,32.189659" Rotate="0.73727685,0,-0.67559075,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Shotgun" HasEntity="1">
+    <Properties HitPoints="0" initialSetup="" bMounted="0" eiPhysicsType="0" bPickable="1" soclasses_SmartObjectClass="" bSpecialSelect="0" bUsable="0">
+     <Respawn bRespawn="0" nTimer="30" bUnique="0"/>
+    </Properties>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="f1ec8bd5-6a81-5fce-007c-baa5847a7ca9" Name="Human-136" Pos="13.60559,240.39536,31.962351" Rotate="0.70710659,0,0,-0.70710701" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="ab786c70-8945-9519-9468-e19abfcc6df3" Name="Human-137" Pos="13.605591,242.57098,31.962351" Rotate="0.70710659,0,0,-0.70710701" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="f20bdaa2-6a5e-d6a7-4767-2f5212b7ebbb" Name="Human-138" Pos="20.320477,232.6958,35.467754" Rotate="-0.13052598,0,0,0.99144489" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="8ee4f4c1-570b-4ae4-baa8-c758a0bb7828" Name="Human-139" Pos="110.68394,240.842,34.178314" Rotate="0.64278769,0,0,0.76604438" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="25b81420-736f-dcef-2467-ae6b75285724" Name="Human-141" Pos="130.48445,240.31502,32.235199" Rotate="0.64278769,0,0,0.76604438" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="920477b1-658e-e030-276b-404fa732fb5b" Name="small_grass_a-1" Pos="79.600304,208.5415,32.000237" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/ground/field_grass/small_grass_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="8b36bebb-5d88-8ce0-603b-0783d490d890" Name="small_grass_b-1" Pos="83.100449,209.19987,32.000237" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/ground/field_grass/small_grass_b.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="8ec372c8-8138-37a2-ce9a-c6efaad5d7ad" Name="grass_medium_normal-1" Pos="83.960754,216.75394,32.000237" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/ground/grass/grass_medium_normal.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="b01fb0e1-af9d-9ea7-a906-ec158316d751" Name="tall_grass_b-1" Pos="64.319664,210.15179,32.000237" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/ground/grass/tall_grass_b.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="a156c1ee-cb74-d937-200a-73016088599d" Name="basket_wicker_a_dmg-1" Pos="69.508942,223.71179,32.000237" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/props/industrial/baskets/wicker/basket_wicker_a_dmg.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="58fd67d8-7f9e-c6ed-6025-425e5059f3ef" Name="oil_tank_a-1" Pos="83.204102,184.14828,31.997341" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/props/industrial/tanks/oil_tank/oil_tank_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="fc9eca11-476b-4978-9a69-83f496e3bf7a" Name="water_tank-1" Pos="89.364052,200.1189,31.997341" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/props/industrial/tanks/water_tank/water_tank.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="1daf88b8-4a97-6d4b-f242-998a870a65e5" Name="water_crane-1" Pos="90.636612,211.80162,32.000237" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/props/industrial/trainyard/water_crane/water_crane.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="9d531542-ecbd-7ce5-7315-4c5eee1fb333" Name="bush_round_leaf_b-9" Pos="72.915672,201.51424,32.000237" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/bushes/bush_round_leaf/bush_round_leaf_b.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="9f02bb54-dd1c-bd0b-cb4b-c011766a6069" Name="bush_round_leaf_b-12" Pos="78.417412,190.8515,31.997341" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/bushes/bush_round_leaf/bush_round_leaf_b.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="9b62c5a5-9bd7-b774-db23-5fa56178bd12" Name="Human-144" Pos="56.262787,208.96954,31.965378" Rotate="0.70710623,0,0,-0.70710731" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="8639007b-9b8f-f632-779c-2ff37f5ef05f" Name="Human-145" Pos="57.740948,197.57524,31.965378" Rotate="0.92387921,0,0,-0.38268429" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="079a220c-eccb-6a8c-cb2d-2743dffab7de" Name="Human-146" Pos="84.984268,184.34671,34.245998" Rotate="0.991445,0,0,0.13052522" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="4d8f5254-064d-5cd6-c1df-d433198c6d72" Name="Human-147" Pos="57.740948,197.57524,31.965378" Rotate="0.92387921,0,0,-0.38268429" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="ea691222-0101-3419-8d8d-89df923a6f08" Name="Human-149" Pos="74.012108,222.78934,31.965378" Rotate="0.70710623,0,0,-0.70710731" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Human" HasEntity="1">
+    <Properties aicharacter_character="" awarenessOfPlayer="0" esBehaviorSelection="HumanGrunt" esBehaviorSelectionTree="" aibehavior_behaviour="" eiColliderMode="0" esCommConfig="Human" commrange="15" bEnableHitReaction="1" equip_EquipmentPack="AI_Rifle" esFaction="Assassins" bFactionHostility="1" fFmodCharacterTypeParam="0" fileHitDeathReactionsParamsDataFile="Libs/HitDeathReactionsData/HitDeathReactions_SDKGrunt.xml" bInvulnerable="0" fileModel="objects/characters/human/sdk_player/sdk_player_blue_helmet.cdf" nModelVariations="0" esModularBehaviorTree="sdk_grunt_07" esNavigationType="MediumSizedCharacters" bOverrideAllowLookAimStrafing="1" physicMassMult="1" soclasses_SmartObjectClass="Human, Actor" SpawnedEntityName="" bSpawner="0" TagList="" bUsable="0" bUseFacialFrameRateLimiting="1" UseMessage="" useSpecialMovementTransitions="1" esVoice="AI_01">
+     <AI bPlayDeathSound="0" sndDeathSound="" bUseRadioChatter="1"/>
+     <CharacterSounds foleyEffect="foley_player" footstepEffect="footstep_grunt" bFootstepGearEffect="0" footstepIndGearAudioSignal_Run="" footstepIndGearAudioSignal_Walk="" remoteFootstepEffect="footstep_grunt"/>
+     <Damage fileBodyDamage="Libs/BodyDamage/BodyDamage_Default.xml" fileBodyDamageParts="Libs/BodyDamage/Bodyparts_HumanMaleShared.xml" fileBodyDestructibility="Libs/BodyDamage/BodyDestructibility_HumanMaleShared.xml" CanFall="1" FallSleepTime="1" health="500" heatAbsobsion="0.5" heatDissipation="200" bLogDamages="0" minHeatDamage="100"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0"/>
+     <LipSync bEnabled="1" esLipSyncType="LipSync_TransitionQueue">
+      <TransitionQueueSettings nAnimLayer="11" nCharacterSlot="0" sDefaultAnimName="facial_chewing_01"/>
+     </LipSync>
+     <Perception audioScale="1" cloakMaxDistCrouchedAndMoving="1.5" cloakMaxDistCrouchedAndStill="1.3" cloakMaxDistMoving="3" cloakMaxDistStill="2" collisionReactionScale="1" config="Human" FOVPrimary="80" FOVSecondary="160" bIsAffectedByLight="0" minAlarmLevel="0" minDistanceToSpotDeadBodies="20" persistence="0" sightrange="70" sightrangeVehicle="-1" stanceScale="1.9" stuntReactionTimeOut="3">
+      <TargetTracks classThreat="1" targetLimit="0"/>
+     </Perception>
+     <Physics>
+      <CollisionFiltering>
+       <collisionIgnore bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+       <collisionType bT_collision_class_articulated="0" bT_collision_class_living="0" bT_collision_class_particle="0" bT_collision_class_soft="0" bT_collision_class_terrain="0" bT_collision_class_wheeled="0" bT_gcc_ai="0" bT_gcc_large_kickable="0" bT_gcc_player_body="0" bT_gcc_player_capsule="0" bT_gcc_ragdoll="0" bT_gcc_rigid="0" bT_gcc_vehicle="0" bT_gcc_vtol="0"/>
+      </CollisionFiltering>
+     </Physics>
+     <PlayerInteractions bCanBeGrabbed="1" esGrabType="Human" bStealthKill="1"/>
+     <RateOfDeath accuracy="1" attackrange="70" reactionTime="1"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0"/>
+     <Rendering bWrinkleMap="0"/>
+    </Properties>
+    <Properties2 bAlarmed="0" bAutoDisable="0" aibehavior_behaviour="" groupid="0" soclasses_SmartObjectClass="" nVariation="0" esVoice="">
+     <AI bGoBackToStartOnIdle="0" bGunner="0" bHostileIfAttacked="0"/>
+     <AITerritoryAndWave aiterritory_Territory="&lt;None&gt;" aiwave_Wave="&lt;None&gt;"/>
+     <Interest Angle="270" bInterested="1" MinInterestLevel="0" bOverrideArchetype="0"/>
+     <Readability bIgnoreAnimations="0" bIgnoreVoice="0" bOverrideArchetype="0"/>
+    </Properties2>
    </Object>
   </LayerObjects>
  </Layer>

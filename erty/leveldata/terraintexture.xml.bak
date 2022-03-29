@@ -1,4 +1,4 @@
-<TerrainTexture TileCountX="1" TileCountY="1" TileResolution="256">
+<TerrainTexture TileCountX="1" TileCountY="1" TileResolution="512">
  <RGBLayer>
   <Tiles>
    <tile X="0" Y="0" Size="256"/>
