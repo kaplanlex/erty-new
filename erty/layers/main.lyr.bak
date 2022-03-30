@@ -1,5 +1,5 @@
 <ObjectLayer>
- <Layer Name="Main" FullName="Main" GUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1648542609">
+ <Layer Name="Main" FullName="Main" GUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Hidden="0" Frozen="0" Expanded="0" Type="0" Exportable="1" ExportLayerPak="1" DefaultLoaded="0" HavePhysics="1" IsDefaultColor="1" Color="4671303" Timestamp="1648624425">
   <LayerObjects>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="41ec3faf-2e6a-9816-98b6-b06485a0d372" Name="palm_tree_large_e_con-1" Pos="111.50838,103.30626,32.000324" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/natural/trees/palm_tree/palm_tree_large_e_con.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
@@ -151,9 +151,9 @@
       <Node EntityGUID="40bd96db-1010-79b1-61cd-38d7247991e4" Id="2" GUIDLo="B344FED0B279ECEC" GUIDHi="1558EBD4483855ED" Type="Camera" Name="Camera-1" Flags="0" paramIdVersion="9" FOV="60" NearZ="0.1" AmplitudeA="1,1,1" AmplitudeAMult="0" FrequencyA="1,1,1" FrequencyAMult="0" NoiseAAmpMult="0" NoiseAFreqMult="0" TimeOffsetA="0" AmplitudeB="1,1,1" AmplitudeBMult="0" FrequencyB="1,1,1" FrequencyBMult="0" NoiseBAmpMult="0" NoiseBFreqMult="0" TimeOffsetB="0" ShakeSeed="0">
        <Track paramType="FOV" Flags="0" startTimeTicks="0" endTimeTicks="60000" GUIDLo="5F1916A7A9C51D47" GUIDHi="29C5C567E0A2AD1" defaultValue="0,60" ValueType="0"/>
        <Track paramType="Position" GUIDLo="312AA016F6EF7ED6" GUIDHi="AB22EC54AC7B4530" ValueType="1">
-        <NewSubTrack Flags="0" startTimeTicks="0" endTimeTicks="60000" GUIDLo="16113E3452C7FE05" GUIDHi="CB5D43EDB0B80CE5" defaultValue="0,127.49043"/>
-        <NewSubTrack Flags="0" startTimeTicks="0" endTimeTicks="60000" GUIDLo="7D3FF95CE624F7B1" GUIDHi="BDF4B0796AD4574" defaultValue="0,141.7693"/>
-        <NewSubTrack Flags="0" startTimeTicks="0" endTimeTicks="60000" GUIDLo="DC4584F4D6CB30A7" GUIDHi="7B73E2F9BADC441B" defaultValue="0,241.5827"/>
+        <NewSubTrack Flags="0" startTimeTicks="0" endTimeTicks="60000" GUIDLo="16113E3452C7FE05" GUIDHi="CB5D43EDB0B80CE5" defaultValue="0,127.80507"/>
+        <NewSubTrack Flags="0" startTimeTicks="0" endTimeTicks="60000" GUIDLo="7D3FF95CE624F7B1" GUIDHi="BDF4B0796AD4574" defaultValue="0,150.63391"/>
+        <NewSubTrack Flags="0" startTimeTicks="0" endTimeTicks="60000" GUIDLo="DC4584F4D6CB30A7" GUIDHi="7B73E2F9BADC441B" defaultValue="0,325.1489"/>
        </Track>
        <Track paramType="Rotation" GUIDLo="B3B1C60207ABCF06" GUIDHi="BCE99D3B3C2298F9" ValueType="2">
         <NewSubTrack Flags="0" startTimeTicks="0" endTimeTicks="60000" GUIDLo="8F8C583C631073E0" GUIDHi="945E4B79D1FFDC38" defaultValue="0,-83.942551"/>
@@ -704,7 +704,7 @@
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
     </CollisionFiltering>
    </Object>
-   <Object Type="Camera" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="40bd96db-1010-79b1-61cd-38d7247991e4" Name="Camera-1" Pos="127.49043,141.7693,241.5827" Rotate="0.02078951,-0.020313442,-0.66844946,0.74318939" Scale="1,1,1" ColorRGB="16776960" UseCustomLevelLayerColor="0" MinSpec="0" FOV="1.0472" NearZ="0.1" FarZ="1024" OmniCamera="0" EntityClass="CameraSource" HasEntity="1">
+   <Object Type="Camera" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="40bd96db-1010-79b1-61cd-38d7247991e4" Name="Camera-1" Pos="127.80507,150.63391,325.1489" Rotate="0.02078951,-0.020313442,-0.66844946,0.74318939" Scale="1,1,1" ColorRGB="16776960" UseCustomLevelLayerColor="0" MinSpec="0" FOV="1.0472" NearZ="0.1" FarZ="1024" OmniCamera="0" EntityClass="CameraSource" HasEntity="1">
     <ShakeParams AmplitudeA="1,1,1" AmplitudeAMult="0" FrequencyA="1,1,1" FrequencyAMult="0" NoiseAAmpMult="0" NoiseAFreqMult="0" TimeOffsetA="0" AmplitudeB="1,1,1" AmplitudeBMult="0" FrequencyB="1,1,1" FrequencyBMult="0" NoiseBAmpMult="0" NoiseBFreqMult="0" TimeOffsetB="0" CameraShakeSeed="0"/>
     <Properties />
     <FlowGraph Description="" Group="" enabled="1" MultiPlayer="ClientServer">
@@ -5029,11 +5029,15 @@
    </Object>
    <Object Type="Group" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="57c339a5-b111-f612-8213-c07f6d8fd177" Name="Group-1" Pos="252,111,35" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65280" UseCustomLevelLayerColor="0" Material="materials/generic/metal/gold" MinSpec="0" Opened="1">
     <Objects>
-     <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="7db69c6a-baa9-4de9-516e-a10fc4946452" Name="gamesdk11-1" Parent="57c339a5-b111-f612-8213-c07f6d8fd177" Pos="-0.49124146,0.039093018,-0.2763176" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" Material="materials/generic/metal/gold" MinSpec="0" MatLayersMask="0" Prefab="gamesdk11.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
-      <CollisionFiltering>
-       <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
-       <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
-      </CollisionFiltering>
+     <Object Type="Group" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="aca70997-0d38-5f68-edd5-1aaa993ab89b" Name="Group-2" Parent="57c339a5-b111-f612-8213-c07f6d8fd177" Pos="-0.49124146,0.039093018,-0.2763176" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65280" UseCustomLevelLayerColor="0" MinSpec="0" Opened="1">
+      <Objects>
+       <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="7db69c6a-baa9-4de9-516e-a10fc4946452" Name="gamesdk11-1" Parent="aca70997-0d38-5f68-edd5-1aaa993ab89b" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" Material="materials/generic/metal/gold" MinSpec="0" MatLayersMask="0" Prefab="gamesdk11.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+        <CollisionFiltering>
+         <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+         <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+        </CollisionFiltering>
+       </Object>
+      </Objects>
      </Object>
     </Objects>
    </Object>
@@ -7492,6 +7496,18 @@
     </CollisionFiltering>
    </Object>
    <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="bfa3a53f-3d58-49a5-9b7b-dd080a149329" Name="gatehouse_groundplate-9" Pos="67.972382,245.65796,48.539711" Rotate="0.66105264,0.052047752,0.019855602,-0.74826878" Scale="2.2657757,1.0000001,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/buildings/gatehouse/gatehouse_groundplate.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
+    <CollisionFiltering>
+     <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+     <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
+    </CollisionFiltering>
+   </Object>
+   <Object Type="Entity" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="453d2733-069e-a7c9-8c93-631120733474" Name="Snow-3" Pos="194.21327,65.524971,30.303085" Rotate="1,0,0,0" Scale="1,1,1" ColorRGB="65535" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" OutdoorOnly="0" CastShadow="1" CastShadowMinspec="1" DynamicDistanceShadows="0" GIMode="0" LodRatio="100" ViewDistRatio="100" HiddenInGame="0" RecvWind="0" RenderNearest="0" NoStaticDecals="0" EntityClass="Snow" HasEntity="1">
+    <Properties bEnabled="1" fRadius="50">
+     <SnowFall fBrightness="1" fGravityScale="0.1" nSnowFlakeCount="100" fSnowFlakeSize="1" fTurbulenceFreq="0.1" fTurbulenceStrength="0.5" fWindScale="0.1"/>
+     <Surface fFrostAmount="1" fSnowAmount="10" fSurfaceFreezing="1"/>
+    </Properties>
+   </Object>
+   <Object Type="Brush" Layer="Main" LayerGUID="98b44cb4-3400-fb70-29c9-fe8b259fd3d4" Id="96541bba-34ce-d25f-7d9a-ec684341c844" Name="fishing_house_a-1" Pos="10.219199,500.87598,31.999756" Rotate="0.76604432,0,0,-0.64278775" Scale="1,1,1" ColorRGB="16777215" UseCustomLevelLayerColor="0" MinSpec="0" MatLayersMask="0" Prefab="objects/architecture/buildings/fishing_houses/fishing_house_a.cgf" IgnoreVisareas="0" CastShadowMaps="1" GIMode="1" RainOccluder="1" SupportSecondVisarea="0" DynamicDistanceShadows="0" Hideable="0" LodRatio="100" ViewDistRatio="100" ExcludeFromNavigation="0" NoDynamicWater="0" AIRadius="-1" NoStaticDecals="0" RecvWind="0" Occluder="0" DrawLast="0" ShadowLodBias="0" IgnoreTerrainLayerBlend="0" IgnoreDecalBlend="0" RndFlags="180060000408">
     <CollisionFiltering>
      <Type collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>
      <Ignore collision_class_terrain="0" collision_class_wheeled="0" collision_class_living="0" collision_class_articulated="0" collision_class_soft="0" collision_class_particle="0" gcc_player_capsule="0" gcc_player_body="0" gcc_vehicle="0" gcc_large_kickable="0" gcc_ragdoll="0" gcc_rigid="0" gcc_vtol="0" gcc_ai="0"/>

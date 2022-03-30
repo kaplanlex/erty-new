@@ -1,4 +1,4 @@
-<AssetMetadata version="0" type="Level" guid="03e8cab4-4850-1300-e4cd-b8a524ce5ca3" source="" timestamp="1648546308">
+<AssetMetadata version="0" type="Level" guid="03e8cab4-4850-1300-e4cd-b8a524ce5ca3" source="" timestamp="1648624857">
  <Files>
   <File path="erty/erty.level"/>
  </Files>
@@ -34,6 +34,7 @@
   <Path>%engine%/engineassets/raintextures.xml</Path>
   <Path>%engine%/engineassets/texturemsg/color_black.dds</Path>
   <Path>%engine%/engineassets/texturemsg/defaultnouvs.dds</Path>
+  <Path>%engine%/engineassets/texturemsg/defaultsolids.mtl</Path>
   <Path>%engine%/engineassets/textures/default_probe_cm.dds</Path>
   <Path>%engine%/engineassets/textures/default_probe_cm_diff.dds</Path>
   <Path>%engine%/engineassets/textures/frozen/frost_noise4.dds</Path>
@@ -582,6 +583,7 @@
   <Path>animations/mannequin/adb/turrettags.xml</Path>
   <Path>animations/weapons/turret/turret_aimposes_01.caf</Path>
   <Path>engineassets/textures/grey.dds</Path>
+  <Path>entities.xml</Path>
   <Path>erty/gamesdk.cgf</Path>
   <Path>erty/gamesdk121.cgf</Path>
   <Path>erty/leveldata/objectives.xml</Path>
@@ -712,6 +714,10 @@
   <Path>objects/architecture/buildings/electric_building/electric_building.cgf</Path>
   <Path>objects/architecture/buildings/electric_building/electric_building_lod1.cgf</Path>
   <Path>objects/architecture/buildings/electric_building/electric_building_lod2.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_a.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_a_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_a_lod2.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_a_lod3.cgf</Path>
   <Path>objects/architecture/buildings/fishing_houses/fishing_house_c.cgf</Path>
   <Path>objects/architecture/buildings/fishing_houses/fishing_house_c_lod1.cgf</Path>
   <Path>objects/architecture/buildings/fishing_houses/fishing_house_c_lod2.cgf</Path>
