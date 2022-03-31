@@ -1,11 +1,14 @@
-<AssetMetadata version="0" type="Level" guid="03e8cab4-4850-1300-e4cd-b8a524ce5ca3" source="" timestamp="1648638716">
+<AssetMetadata version="0" type="Level" guid="03e8cab4-4850-1300-e4cd-b8a524ce5ca3" source="" timestamp="1648740770">
  <Files>
   <File path="erty/erty.level"/>
  </Files>
  <Dependencies>
   <Path usageCount="1">%ENGINE%/EngineAssets/Shading/default.env</Path>
   <Path>%editor%/objects/gradf.dds</Path>
+  <Path>%editor%/objects/helper.mtl</Path>
   <Path>%editor%/objects/helper_illum.mtl</Path>
+  <Path>%editor%/objects/light_omni.cgf</Path>
+  <Path>%editor%/objects/particles.cgf</Path>
   <Path>%editor%/objects/spawnpointhelper.cgf</Path>
   <Path>%editor%/objects/t.cgf</Path>
   <Path>%engine%/engineassets/icons/averagememoryusage.dds</Path>
@@ -560,6 +563,9 @@
   <Path>animations/mannequin/adb/ledgegrabtags.xml</Path>
   <Path>animations/mannequin/adb/meleetags.xml</Path>
   <Path>animations/mannequin/adb/meleeweapontags.xml</Path>
+  <Path>animations/mannequin/adb/mh60_blackhawkcontrollerdefs.xml</Path>
+  <Path>animations/mannequin/adb/mh60_blackhawkfragments.xml</Path>
+  <Path>animations/mannequin/adb/mh60_blackhawktags.xml</Path>
   <Path>animations/mannequin/adb/playeractions.xml</Path>
   <Path>animations/mannequin/adb/playercontrollerdefs.xml</Path>
   <Path>animations/mannequin/adb/playertags.xml</Path>
@@ -576,6 +582,7 @@
   <Path>animations/mannequin/adb/turrettags.xml</Path>
   <Path>animations/weapons/turret/turret_aimposes_01.caf</Path>
   <Path>engineassets/textures/grey.dds</Path>
+  <Path>entities.xml</Path>
   <Path>erty/gamesdk.cgf</Path>
   <Path>erty/gamesdk121.cgf</Path>
   <Path>erty/leveldata/objectives.xml</Path>
@@ -620,8 +627,22 @@
   <Path>libs/particles/water.xml</Path>
   <Path>libs/particles/weapon_fx.xml</Path>
   <Path>libs/particles/weather.xml</Path>
+  <Path>libs/smartobjects.xml</Path>
+  <Path>libs/smartobjects/classtemplates/cornerbreachleft.xml</Path>
+  <Path>libs/smartobjects/classtemplates/cornerbreachright.xml</Path>
+  <Path>libs/smartobjects/classtemplates/duck_v125.xml</Path>
+  <Path>libs/smartobjects/classtemplates/jump_v150.xml</Path>
+  <Path>libs/smartobjects/classtemplates/jump_v300.xml</Path>
+  <Path>libs/smartobjects/classtemplates/jump_v450_human.xml</Path>
+  <Path>libs/smartobjects/classtemplates/kick_door.xml</Path>
+  <Path>libs/smartobjects/classtemplates/repeldown_v2600.xml</Path>
+  <Path>libs/smartobjects/classtemplates/repeldown_v900.xml</Path>
+  <Path>libs/smartobjects/classtemplates/vault_v125.xml</Path>
   <Path>libs/ui//texturepreload.xml</Path>
   <Path>libs/ui/objectives_global.xml</Path>
+  <Path>materials/decals/blood/blood_splat1.mtl</Path>
+  <Path>materials/decals/blood/blood_splat2.mtl</Path>
+  <Path>materials/decals/blood/blood_splat3.mtl</Path>
   <Path>materials/decals/blood/blood_splat4.mtl</Path>
   <Path>materials/decals/blood/blood_splat5.mtl</Path>
   <Path>materials/decals/blood/blood_splatx1.mtl</Path>
@@ -669,9 +690,30 @@
   <Path>objects/architecture/buildings/electric_building/electric_building.cgf</Path>
   <Path>objects/architecture/buildings/electric_building/electric_building_lod1.cgf</Path>
   <Path>objects/architecture/buildings/electric_building/electric_building_lod2.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_door_c.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_a.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_a_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_a_lod2.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_a_lod3.cgf</Path>
   <Path>objects/architecture/buildings/fishing_houses/fishing_house_c.cgf</Path>
   <Path>objects/architecture/buildings/fishing_houses/fishing_house_c_lod1.cgf</Path>
   <Path>objects/architecture/buildings/fishing_houses/fishing_house_c_lod2.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_c_mod_awning.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_c_mod_awning_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_c_mod_door.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_c_mod_epole.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_c_mod_epole_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_c_mod_epole_lod2.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_c_mod_roof.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_c_mod_roof_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_c_mod_win.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_c_mod_winsmall.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_door_a.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_door_a_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_roof_window.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_roof_window_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_shelter.cgf</Path>
+  <Path>objects/architecture/buildings/fishing_houses/fishing_house_shelter_lod1.cgf</Path>
   <Path>objects/architecture/buildings/fishing_houses/wood_table.cgf</Path>
   <Path>objects/architecture/buildings/gatehouse/gatehouse.cgf</Path>
   <Path>objects/architecture/buildings/gatehouse/gatehouse_groundplate.cgf</Path>
@@ -680,7 +722,40 @@
   <Path>objects/architecture/buildings/gatehouse/gatehouse_lod1.cgf</Path>
   <Path>objects/architecture/buildings/gatehouse/gatehouse_lod2.cgf</Path>
   <Path>objects/architecture/buildings/greenhouse/greenhouse.cgf</Path>
+  <Path>objects/architecture/buildings/greenhouse/greenhouse_side.cgf</Path>
+  <Path>objects/architecture/buildings/guardhouse/guardhouse.cgf</Path>
+  <Path>objects/architecture/buildings/guardhouse/guardhouse.mtl</Path>
+  <Path>objects/architecture/buildings/guardhouse/guardhouse_lod1.cgf</Path>
   <Path>objects/architecture/buildings/hangar/hangar_gate.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_a.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_a_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_a_lod2.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_b.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_b_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_b_lod2.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_info_sign.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_interior_base.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_interior_base_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_interior_level01.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_interior_level01_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_interior_level02.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_interior_level02_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_interior_level03.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_interior_level03_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_light.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_light_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_light_lod2.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/lighthouse_light_lod3.cgf</Path>
+  <Path>objects/architecture/buildings/lighthouse/metal_door.cgf</Path>
+  <Path>objects/architecture/buildings/loghouse/loghouse_blue.cgf</Path>
+  <Path>objects/architecture/buildings/loghouse/loghouse_blue_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/loghouse/loghouse_grey.cgf</Path>
+  <Path>objects/architecture/buildings/loghouse/loghouse_grey_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/loghouse/loghouse_pile.cgf</Path>
+  <Path>objects/architecture/buildings/loghouse/loghouse_pile_lod1.cgf</Path>
+  <Path>objects/architecture/buildings/loghouse/loghouse_pile_lod2.cgf</Path>
+  <Path>objects/architecture/buildings/loghouse/loghouse_red.cgf</Path>
+  <Path>objects/architecture/buildings/loghouse/loghouse_red_lod1.cgf</Path>
   <Path>objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf</Path>
   <Path>objects/architecture/fences/barbwire_fence/barbwire_fence_gate_a.cgf</Path>
   <Path>objects/architecture/fences/barbwire_fence/barbwire_fence_gate_a_lod1.cgf</Path>
@@ -1058,15 +1133,71 @@
   <Path>objects/props/misc/3dtext/h.cgf</Path>
   <Path>objects/props/misc/3dtext/l.cgf</Path>
   <Path>objects/props/misc/3dtext/o.cgf</Path>
-  <Path>objects/props/misc/cloth/cloth_cryengine.mtl</Path>
+  <Path>objects/props/misc/breakable_glass/breakable_glass.cgf</Path>
+  <Path>objects/props/misc/breakable_glass/window.cgf</Path>
+  <Path>objects/props/misc/breakable_glass/window2.cgf</Path>
+  <Path>objects/props/misc/chinese_lantern/chinese_lantern.cgf</Path>
+  <Path>objects/props/misc/cloth/cloth.cgf</Path>
+  <Path>objects/props/misc/cloth/cloth_6x4.cgf</Path>
+  <Path>objects/props/misc/cloth/cloth_high.cgf</Path>
+  <Path>objects/props/misc/cloth/cloth_low.cgf</Path>
+  <Path>objects/props/misc/cloth/hanging_cloth_a.cgf</Path>
+  <Path>objects/props/misc/cloth/hanging_cloth_b.cgf</Path>
+  <Path>objects/props/misc/cloth/hanging_cloth_d.cgf</Path>
+  <Path>objects/props/misc/colossal_statue/colossus.cgf</Path>
+  <Path>objects/props/misc/colossal_statue/colossus_lod1.cgf</Path>
+  <Path>objects/props/misc/colossal_statue/colossus_lod2.cgf</Path>
+  <Path>objects/props/misc/colossal_statue/colossus_lod3.cgf</Path>
+  <Path>objects/props/misc/colossal_statue/colossus_lod4.cgf</Path>
   <Path>objects/props/misc/ctf/flag_neutral_small.cgf</Path>
+  <Path>objects/props/misc/garden_gnome/gardengnome.cgf</Path>
+  <Path>objects/props/misc/garden_gnome/gardengnome.mtl</Path>
+  <Path>objects/props/misc/garden_gnome/gardengnome1.mtl</Path>
+  <Path>objects/props/misc/garden_gnome/gardengnome2.cgf</Path>
+  <Path>objects/props/misc/garden_gnome/gardengnome2_lod1.cgf</Path>
+  <Path>objects/props/misc/garden_gnome/gardengnome3.cgf</Path>
+  <Path>objects/props/misc/garden_gnome/gardengnome3_lod1.cgf</Path>
+  <Path>objects/props/misc/garden_gnome/gardengnome_lod1.cgf</Path>
   <Path>objects/props/misc/gas_canister/gascanister_con.cgf</Path>
+  <Path>objects/props/misc/lights/candles/holder_standing_a/candle_holder_standing_a.cgf</Path>
+  <Path>objects/props/misc/lights/candles/holder_standing_a/candle_holder_standing_a_lod1.cgf</Path>
+  <Path>objects/props/misc/lights/candles/holder_wall_a/candle_holder_wall_a.cgf</Path>
+  <Path>objects/props/misc/lights/double_neon_light/double_neon_light_a.cgf</Path>
+  <Path>objects/props/misc/lights/double_neon_light/double_neon_light_a_nosupport.cgf</Path>
+  <Path>objects/props/misc/lights/double_neon_light/double_neon_light_b.cgf</Path>
+  <Path>objects/props/misc/lights/double_neon_light/double_neon_light_b_nosupport.cgf</Path>
+  <Path>objects/props/misc/lights/emergency_lamp/emergency_lamp_destr.cgf</Path>
+  <Path>objects/props/misc/lights/emergency_lamp/emergency_lamp_off.cgf</Path>
+  <Path>objects/props/misc/lights/emergency_lamp/emergency_lamp_on.cgf</Path>
+  <Path>objects/props/misc/lights/neon_light/neon_light_a.cgf</Path>
+  <Path>objects/props/misc/pottery/amphora/pottery_amphora.cgf</Path>
+  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_a.cgf</Path>
+  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_a_lod1.cgf</Path>
+  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_a_lod2.cgf</Path>
+  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_b.cgf</Path>
+  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_b_lod1.cgf</Path>
+  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_b_lod2.cgf</Path>
+  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_c.cgf</Path>
+  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_c_lod1.cgf</Path>
+  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_c_lod2.cgf</Path>
+  <Path>objects/props/misc/pottery/amphora/pottery_amphora_lod1.cgf</Path>
+  <Path>objects/props/misc/pottery/amphora/pottery_amphora_lod2.cgf</Path>
+  <Path>objects/props/misc/present/present.cgf</Path>
+  <Path>objects/props/misc/present/presentmat.mtl</Path>
+  <Path>objects/props/misc/torch/torch.cgf</Path>
+  <Path>objects/props/misc/torch/torch_base.cgf</Path>
+  <Path>objects/props/misc/trophies/warthog_trophy.cgf</Path>
   <Path>objects/props/misc/vehicles/spaceship/spaceship.cgf</Path>
   <Path>objects/props/misc/vehicles/tractor/tractor.cgf</Path>
   <Path>objects/props/misc/vehicles/tractor/tractor.mtl</Path>
   <Path>objects/props/misc/vehicles/tractor/tractor_lod1.cgf</Path>
   <Path>objects/props/misc/vehicles/tractor/tractor_lod2.cgf</Path>
+  <Path>objects/props/misc/wind_turbine/wind_turbine_a.cgf</Path>
+  <Path>objects/props/misc/wind_turbine/wind_turbine_a_stand.cgf</Path>
   <Path>objects/vehicles/abrams/grenade_launcher.cgf</Path>
+  <Path>objects/vehicles/abrams/gun_b_base.cgf</Path>
+  <Path>objects/vehicles/abrams/gun_b_mount.cgf</Path>
+  <Path>objects/vehicles/abrams/gun_b_spin.cgf</Path>
   <Path>objects/vehicles/abrams/m1a1_abrams.cga</Path>
   <Path>objects/vehicles/abrams/m1a2_ammo.cgf</Path>
   <Path>objects/vehicles/abrams/m1a2_bag.cgf</Path>
@@ -1109,9 +1240,20 @@
   <Path>objects/vehicles/hmmwv_old/hmmwv_damaged.cga</Path>
   <Path>objects/vehicles/hmmwv_old/hmmwv_damaged_lod1.cga</Path>
   <Path>objects/vehicles/hmmwv_old/hmmwv_damaged_lod2.cga</Path>
+  <Path>objects/vehicles/mh60_blackhawk/mh60.cga</Path>
+  <Path>objects/vehicles/mh60_blackhawk/mh60.mtl</Path>
   <Path>objects/vehicles/mh60_blackhawk/mh60_a.cgf</Path>
   <Path>objects/vehicles/mh60_blackhawk/mh60_a_lod1.cgf</Path>
   <Path>objects/vehicles/mh60_blackhawk/mh60_a_lod2.cgf</Path>
+  <Path>objects/vehicles/mh60_blackhawk/mh60_damaged.cga</Path>
+  <Path>objects/vehicles/mh60_blackhawk/mh60_damaged.mtl</Path>
+  <Path>objects/vehicles/mh60_blackhawk/mh60_damaged_lod1.cga</Path>
+  <Path>objects/vehicles/mh60_blackhawk/mh60_damaged_lod2.cga</Path>
+  <Path>objects/vehicles/mh60_blackhawk/mh60_lod1.cga</Path>
+  <Path>objects/vehicles/mh60_blackhawk/mh60_lod2.cga</Path>
+  <Path>objects/vehicles/mh60_blackhawk/mh60_lod3.cga</Path>
+  <Path>objects/vehicles/mh60_blackhawk/mh60_lod4.cga</Path>
+  <Path>objects/vehicles/mh60_blackhawk/mh60_rotate.anm</Path>
   <Path>objects/vehicles/samplebike/samplebike.cga</Path>
   <Path>objects/vehicles/speedboat/speedboat_a.cga</Path>
   <Path>objects/vehicles/speedboat/speedboat_a_damaged.cga</Path>
@@ -1138,8 +1280,15 @@
   <Path>objects/weapons/ammo/ammo_crate/magazine_rifle_x2.cgf</Path>
   <Path>objects/weapons/ammo/ammo_crate/magazine_rifle_x3.cgf</Path>
   <Path>objects/weapons/ammo/ammo_crate/magazine_rifle_x4.cgf</Path>
+  <Path>objects/weapons/ammo/avmine/avmine.cgf</Path>
   <Path>objects/weapons/ammo/rockets/sidewinder/sidewinder.cgf</Path>
   <Path>objects/weapons/ammo/shells/shell_556/shell_556.cgf</Path>
+  <Path>objects/weapons/attachments/assault/assault_scope.mtl</Path>
+  <Path>objects/weapons/attachments/assault/assault_scope_fp.cgf</Path>
+  <Path>objects/weapons/attachments/assault/assault_scope_tp.cgf</Path>
+  <Path>objects/weapons/attachments/assault/assault_scope_tp_lod1.cgf</Path>
+  <Path>objects/weapons/attachments/assault/assault_scope_zoom.cgf</Path>
+  <Path>objects/weapons/attachments/assault/assault_scope_zoom.mtl</Path>
   <Path>objects/weapons/attachments/flash_light/flash_light.cgf</Path>
   <Path>objects/weapons/attachments/flash_light/flash_light_lod1.cgf</Path>
   <Path>objects/weapons/attachments/pistol_magazine/pistol_magazine_fp.cgf</Path>
@@ -1227,14 +1376,25 @@
   <Path>scripts/entities/items/ammocrate.lua</Path>
   <Path>scripts/entities/items/healthpack.lua</Path>
   <Path>scripts/entities/items/item.lua</Path>
+  <Path>scripts/entities/lights/light.lua</Path>
   <Path>scripts/entities/others/camerasource.lua</Path>
+  <Path>scripts/entities/others/mine.lua</Path>
   <Path>scripts/entities/others/spawnpoint.lua</Path>
   <Path>scripts/entities/physics/animobject.lua</Path>
+  <Path>scripts/entities/physics/rope.lua</Path>
+  <Path>scripts/entities/physics/wind.lua</Path>
+  <Path>scripts/entities/physics/windarea.lua</Path>
+  <Path>scripts/entities/playerinteractive/deployablebarrier.lua</Path>
+  <Path>scripts/entities/playerinteractive/interactiveobjectex.lua</Path>
+  <Path>scripts/entities/render/cloudblocker.lua</Path>
   <Path>scripts/entities/render/flash.lua</Path>
   <Path>scripts/entities/triggers/proximitytrigger.lua</Path>
   <Path>scripts/entities/turret/turret.lua</Path>
+  <Path>scripts/entities/vehicles/destroyedvehicle.lua</Path>
   <Path>scripts/entities/vehicles/implementations/xml/abrams.xml</Path>
+  <Path>scripts/entities/vehicles/implementations/xml/defaultvehicle.xml</Path>
   <Path>scripts/entities/vehicles/implementations/xml/hmmwv.xml</Path>
+  <Path>scripts/entities/vehicles/implementations/xml/mh60_blackhawk.xml</Path>
   <Path>scripts/entities/vehicles/implementations/xml/samplebike.xml</Path>
   <Path>scripts/entities/vehicles/implementations/xml/speedboat.xml</Path>
   <Path>scripts/entities/vehicles/implementations/xml/swat_van.xml</Path>
@@ -1274,7 +1434,9 @@
   <Path>textures/sprites/hud/blood1_bullet.dds</Path>
   <Path>textures/sprites/hud/blood2_bullet.dds</Path>
   <Path>textures/sprites/hud/blood3_bullet.dds</Path>
+  <Path>textures/sprites/hud/dirt1_bullet.dds</Path>
   <Path>textures/sprites/hud/dirt2_bullet.dds</Path>
+  <Path>textures/sprites/hud/dirt3_bullet.dds</Path>
   <Path>textures/sprites/leaves/leaf_tiled_a.dds</Path>
   <Path>textures/sprites/leaves/leaf_tiled_b.dds</Path>
   <Path>textures/sprites/lightning/electric_radial1.dds</Path>
