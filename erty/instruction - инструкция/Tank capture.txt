@@ -9,5 +9,5 @@ Instructions for the game "Tank Capture".
 8. change weapons - wheel or key 1.
 9. V key - hit with the butt.
 10. Ctrl+G - start the game.
-
+11. If you see a red cylinder in a white shell, then this means that it is mined.
 The game is not recommended for persons under the age of 14.
