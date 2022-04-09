@@ -1,4 +1,4 @@
-<AssetMetadata version="0" type="Level" guid="03e8cab4-4850-1300-e4cd-b8a524ce5ca3" source="" timestamp="1649078469">
+<AssetMetadata version="0" type="Level" guid="03e8cab4-4850-1300-e4cd-b8a524ce5ca3" source="" timestamp="1649493362">
  <Files>
   <File path="erty/erty.level"/>
  </Files>
@@ -27,8 +27,6 @@
   <Path>%engine%/engineassets/objects/primitive_sphere.cgf</Path>
   <Path>%engine%/engineassets/raintextures.xml</Path>
   <Path>%engine%/engineassets/texturemsg/defaultnouvs.dds</Path>
-  <Path>%engine%/engineassets/textures/default_probe_cm.dds</Path>
-  <Path>%engine%/engineassets/textures/default_probe_cm_diff.dds</Path>
   <Path>%engine%/engineassets/textures/frozen/frost_noise4.dds</Path>
   <Path>%engine%/engineassets/textures/frozen/snow_spatter.dds</Path>
   <Path>%engine%/engineassets/textures/grey.dds</Path>
@@ -575,6 +573,7 @@
   <Path>animations/mannequin/adb/turrettags.xml</Path>
   <Path>animations/weapons/turret/turret_aimposes_01.caf</Path>
   <Path>engineassets/textures/grey.dds</Path>
+  <Path>entities.xml</Path>
   <Path>erty/gamesdk.cgf</Path>
   <Path>erty/gamesdk121.cgf</Path>
   <Path>erty/leveldata/objectives.xml</Path>
@@ -614,7 +613,6 @@
   <Path>libs/particles/breakable_objects.xml</Path>
   <Path>libs/particles/bullet.xml</Path>
   <Path>libs/particles/collisions.xml</Path>
-  <Path>libs/particles/explosions.xml</Path>
   <Path>libs/particles/melee.xml</Path>
   <Path>libs/particles/vehicles.xml</Path>
   <Path>libs/particles/water.xml</Path>
@@ -623,12 +621,10 @@
   <Path>libs/ui//texturepreload.xml</Path>
   <Path>libs/ui/objectives_global.xml</Path>
   <Path>materials/decals/blood/blood_splat1.mtl</Path>
-  <Path>materials/decals/blood/blood_splat2.mtl</Path>
   <Path>materials/decals/blood/blood_splat3.mtl</Path>
   <Path>materials/decals/blood/blood_splat4.mtl</Path>
   <Path>materials/decals/blood/blood_splat5.mtl</Path>
   <Path>materials/decals/blood/blood_splatx1.mtl</Path>
-  <Path>materials/decals/blood/blood_splatx2.mtl</Path>
   <Path>materials/decals/blood/blood_splatx3.mtl</Path>
   <Path>materials/decals/blood/human_body.mtl</Path>
   <Path>materials/decals/concrete/concrete_crack1.mtl</Path>
@@ -691,9 +687,6 @@
   <Path>objects/architecture/buildings/gatehouse/gatehouse_lod1.cgf</Path>
   <Path>objects/architecture/buildings/gatehouse/gatehouse_lod2.cgf</Path>
   <Path>objects/architecture/buildings/greenhouse/greenhouse.cgf</Path>
-  <Path>objects/architecture/buildings/lighthouse/lighthouse_b.cgf</Path>
-  <Path>objects/architecture/buildings/lighthouse/lighthouse_b_lod1.cgf</Path>
-  <Path>objects/architecture/buildings/lighthouse/lighthouse_b_lod2.cgf</Path>
   <Path>objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf</Path>
   <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_wall_top_a.cgf</Path>
   <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_wall_top_a_lod1.cgf</Path>
@@ -963,15 +956,6 @@
   <Path>objects/props/misc/colossal_statue/colossus_lod4.cgf</Path>
   <Path>objects/props/misc/ctf/flag_neutral_small.cgf</Path>
   <Path>objects/props/misc/pottery/amphora/pottery_amphora.cgf</Path>
-  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_a.cgf</Path>
-  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_a_lod1.cgf</Path>
-  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_a_lod2.cgf</Path>
-  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_b.cgf</Path>
-  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_b_lod1.cgf</Path>
-  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_b_lod2.cgf</Path>
-  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_c.cgf</Path>
-  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_c_lod1.cgf</Path>
-  <Path>objects/props/misc/pottery/amphora/pottery_amphora_dmg_c_lod2.cgf</Path>
   <Path>objects/props/misc/pottery/amphora/pottery_amphora_lod1.cgf</Path>
   <Path>objects/props/misc/pottery/amphora/pottery_amphora_lod2.cgf</Path>
   <Path>objects/props/misc/present/present.cgf</Path>
@@ -995,6 +979,7 @@
   <Path>objects/vehicles/abrams_old/abrams_damaged.cga</Path>
   <Path>objects/vehicles/abrams_old/abrams_damaged_lod1.cga</Path>
   <Path>objects/vehicles/abrams_old/abrams_damaged_lod2.cga</Path>
+  <Path>objects/vehicles/abrams_old/textures/abrams_glass.dds</Path>
   <Path>objects/vehicles/abrams_old/textures/abrams_glass_gradient.dds</Path>
   <Path>objects/vehicles/hmmwv/bullbar.cgf</Path>
   <Path>objects/vehicles/hmmwv/bullbar_lod1.cgf</Path>
@@ -1059,8 +1044,6 @@
   <Path>objects/weapons/ammo/shells/shell_556/shell_556.cgf</Path>
   <Path>objects/weapons/attachments/flash_light/flash_light.cgf</Path>
   <Path>objects/weapons/attachments/flash_light/flash_light_lod1.cgf</Path>
-  <Path>objects/weapons/attachments/laser_beam/laser_beam.cgf</Path>
-  <Path>objects/weapons/attachments/laser_beam/laser_beam.mtl</Path>
   <Path>objects/weapons/attachments/pistol_magazine/pistol_magazine_fp.cgf</Path>
   <Path>objects/weapons/attachments/pistol_magazine/pistol_magazine_inc_fp.cgf</Path>
   <Path>objects/weapons/attachments/pistol_magazine/pistol_magazine_inc_tp.cgf</Path>
@@ -1170,8 +1153,6 @@
   <Path>textures/sprites/dirt/dirt_a.dds</Path>
   <Path>textures/sprites/dirt/dirt_b.dds</Path>
   <Path>textures/sprites/dirt/dirt_c.dds</Path>
-  <Path>textures/sprites/dirt/dust6.dds</Path>
-  <Path>textures/sprites/dirt/dust_smoke2.dds</Path>
   <Path>textures/sprites/fire/explosion_a.dds</Path>
   <Path>textures/sprites/fire/explosion_add.dds</Path>
   <Path>textures/sprites/fire/explosion_b.dds</Path>
@@ -1191,7 +1172,6 @@
   <Path>textures/sprites/hud/blood3_bullet.dds</Path>
   <Path>textures/sprites/hud/dirt1_bullet.dds</Path>
   <Path>textures/sprites/hud/dirt2_bullet.dds</Path>
-  <Path>textures/sprites/hud/dirt3_bullet.dds</Path>
   <Path>textures/sprites/leaves/leaf_tiled_a.dds</Path>
   <Path>textures/sprites/leaves/leaf_tiled_b.dds</Path>
   <Path>textures/sprites/lightning/electric_radial1.dds</Path>
