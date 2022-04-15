@@ -1,4 +1,4 @@
-<AssetMetadata version="0" type="Level" guid="03e8cab4-4850-1300-e4cd-b8a524ce5ca3" source="" timestamp="1649776681">
+<AssetMetadata version="0" type="Level" guid="03e8cab4-4850-1300-e4cd-b8a524ce5ca3" source="" timestamp="1650026783">
  <Files>
   <File path="erty/erty.level"/>
  </Files>
@@ -621,10 +621,6 @@
   <Path>libs/ui//texturepreload.xml</Path>
   <Path>libs/ui/objectives_global.xml</Path>
   <Path>materials/decals/blood/blood_splat1.mtl</Path>
-  <Path>materials/decals/blood/blood_splat2.mtl</Path>
-  <Path>materials/decals/blood/blood_splat3.mtl</Path>
-  <Path>materials/decals/blood/blood_splat4.mtl</Path>
-  <Path>materials/decals/blood/blood_splat5.mtl</Path>
   <Path>materials/decals/blood/blood_splatx1.mtl</Path>
   <Path>materials/decals/blood/blood_splatx2.mtl</Path>
   <Path>materials/decals/blood/blood_splatx3.mtl</Path>
@@ -661,6 +657,7 @@
   <Path>materials/particle/spec_water.mtl</Path>
   <Path>materials/particle/water_deformation_a.mtl</Path>
   <Path>materials/references/base_colors/aqua.mtl</Path>
+  <Path>materials/references/base_colors/black.mtl</Path>
   <Path>materials/references/base_colors/red.mtl</Path>
   <Path>materials/references/black_reflective.mtl</Path>
   <Path>materials/terrain/beach_sand_a.mtl</Path>
@@ -691,7 +688,14 @@
   <Path>objects/architecture/buildings/gatehouse/gatehouse_lod1.cgf</Path>
   <Path>objects/architecture/buildings/gatehouse/gatehouse_lod2.cgf</Path>
   <Path>objects/architecture/buildings/greenhouse/greenhouse.cgf</Path>
+  <Path>objects/architecture/buildings/worker_barracks/worker_barrack_a.cgf</Path>
+  <Path>objects/architecture/buildings/worker_barracks/worker_barrack_a_lod1.cgf</Path>
   <Path>objects/architecture/fences/barbwire_fence/barbwire_fence_2m.cgf</Path>
+  <Path>objects/architecture/fences/barbwire_fence/barbwire_fence_pole.cgf</Path>
+  <Path>objects/architecture/fences/barbwire_fence/barbwire_fence_pole_lod1.cgf</Path>
+  <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_gate_camp_a.cgf</Path>
+  <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_gate_camp_a_lod1.cgf</Path>
+  <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_gate_camp_a_lod2.cgf</Path>
   <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_wall_top_a.cgf</Path>
   <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_wall_top_a_lod1.cgf</Path>
   <Path>objects/architecture/fences/spike_barrier_wall_set/spike_barrier_wall_top_a_lod2.cgf</Path>
@@ -730,6 +734,7 @@
   <Path>objects/characters/human/attachments/sunglasses/sunglasses_a_lod1.cgf</Path>
   <Path>objects/characters/human/attachments/sunglasses/sunglasses_a_lod2.cgf</Path>
   <Path>objects/characters/human/generic/skeleton_male_generic.mtl</Path>
+  <Path>objects/characters/human/heads/cultist_head/cultist_broken_eyeball.cgf</Path>
   <Path>objects/characters/human/heads/cultist_head/cultist_head_angry.cgf</Path>
   <Path>objects/characters/human/sdk_player/head_a.mtl</Path>
   <Path>objects/characters/human/sdk_player/sdk_player.cdf</Path>
@@ -814,6 +819,10 @@
   <Path>objects/natural/bushes/junglebush/junglebush.mtl</Path>
   <Path>objects/natural/bushes/junglebush/junglebush_big_a.cgf</Path>
   <Path>objects/natural/bushes/junglebush/junglebush_big_a_lod1.cgf</Path>
+  <Path>objects/natural/bushes/roundleafbush/round_leaf_bush_big_yellow.cgf</Path>
+  <Path>objects/natural/bushes/roundleafbush/round_leaf_bush_big_yellow.mtl</Path>
+  <Path>objects/natural/bushes/roundleafbush/round_leaf_bush_big_yellow_lod1.cgf</Path>
+  <Path>objects/natural/bushes/roundleafbush/round_leaf_bush_big_yellow_lod2.cgf</Path>
   <Path>objects/natural/ground/field_grass/small_grass_a.cgf</Path>
   <Path>objects/natural/ground/field_grass/small_grass_b.cgf</Path>
   <Path>objects/natural/ground/forest_ground/forest_ground_patch_leafs_big_a.cgf</Path>
@@ -922,8 +931,15 @@
   <Path>objects/props/fishing_camp/camping_tent_lod1.cgf</Path>
   <Path>objects/props/fishing_camp/camping_tent_lod2.cgf</Path>
   <Path>objects/props/fishing_camp/camping_tent_lod3.cgf</Path>
+  <Path>objects/props/furniture/appliances/bathroom/abandoned_toilet_a.cgf</Path>
+  <Path>objects/props/furniture/appliances/bathroom/abandoned_toilet_a_lod1.cgf</Path>
+  <Path>objects/props/furniture/appliances/ceiling_fan/ceiling_fan.cgf</Path>
+  <Path>objects/props/furniture/appliances/ceiling_fan/textures/ceiling_fan_ddna.dds</Path>
+  <Path>objects/props/furniture/appliances/ceiling_fan/textures/ceiling_fan_diff.dds</Path>
+  <Path>objects/props/furniture/appliances/ceiling_fan/textures/ceiling_fan_spec.dds</Path>
   <Path>objects/props/furniture/benches/bench_a.cgf</Path>
   <Path>objects/props/furniture/benches/bench_a_lod1.cgf</Path>
+  <Path>objects/props/furniture/wooden/wood_table_a.cgf</Path>
   <Path>objects/props/industrial/baskets/wicker/basket_wicker_a_dmg.cgf</Path>
   <Path>objects/props/industrial/baskets/wicker/basket_wicker_a_dmg_lod1.cgf</Path>
   <Path>objects/props/industrial/electrical/electric_pole/electric_pole_c.cgf</Path>
@@ -960,6 +976,8 @@
   <Path>objects/props/misc/colossal_statue/colossus_lod3.cgf</Path>
   <Path>objects/props/misc/colossal_statue/colossus_lod4.cgf</Path>
   <Path>objects/props/misc/ctf/flag_neutral_small.cgf</Path>
+  <Path>objects/props/misc/ladders/mp_ladder1.cgf</Path>
+  <Path>objects/props/misc/ladders/mp_ladder1.mtl</Path>
   <Path>objects/props/misc/pottery/amphora/pottery_amphora.cgf</Path>
   <Path>objects/props/misc/pottery/amphora/pottery_amphora_lod1.cgf</Path>
   <Path>objects/props/misc/pottery/amphora/pottery_amphora_lod2.cgf</Path>
@@ -1047,6 +1065,12 @@
   <Path>objects/weapons/ammo/avmine/avmine.cgf</Path>
   <Path>objects/weapons/ammo/rockets/sidewinder/sidewinder.cgf</Path>
   <Path>objects/weapons/ammo/shells/shell_556/shell_556.cgf</Path>
+  <Path>objects/weapons/attachments/assault/assault_scope.mtl</Path>
+  <Path>objects/weapons/attachments/assault/assault_scope_fp.cgf</Path>
+  <Path>objects/weapons/attachments/assault/assault_scope_tp.cgf</Path>
+  <Path>objects/weapons/attachments/assault/assault_scope_tp_lod1.cgf</Path>
+  <Path>objects/weapons/attachments/assault/assault_scope_zoom.cgf</Path>
+  <Path>objects/weapons/attachments/assault/assault_scope_zoom.mtl</Path>
   <Path>objects/weapons/attachments/flash_light/flash_light.cgf</Path>
   <Path>objects/weapons/attachments/flash_light/flash_light_lod1.cgf</Path>
   <Path>objects/weapons/attachments/pistol_magazine/pistol_magazine_fp.cgf</Path>
@@ -1061,7 +1085,9 @@
   <Path>objects/weapons/c4/c4_tp_thrown.cgf</Path>
   <Path>objects/weapons/c4/c4_tp_thrown_lod1.cgf</Path>
   <Path>objects/weapons/c4/c4_tp_thrown_lod2.cgf</Path>
-  <Path>objects/weapons/equipment/knife/knife.cgf</Path>
+  <Path>objects/weapons/equipment/knife/knife_tp.cgf</Path>
+  <Path>objects/weapons/equipment/knife/knife_tp_lod1.cgf</Path>
+  <Path>objects/weapons/equipment/knife/knife_tp_lod2.cgf</Path>
   <Path>objects/weapons/equipment/medical_kit/medical_kit_bag_tp.cgf</Path>
   <Path>objects/weapons/equipment/medical_kit/medical_kit_bag_tp_lod1.cgf</Path>
   <Path>objects/weapons/frag_grenade/frag_grenade.cdf</Path>
@@ -1127,6 +1153,8 @@
   <Path>scripts/entities/items/healthpack.lua</Path>
   <Path>scripts/entities/items/item.lua</Path>
   <Path>scripts/entities/others/camerasource.lua</Path>
+  <Path>scripts/entities/others/fan.lua</Path>
+  <Path>scripts/entities/others/ladder.lua</Path>
   <Path>scripts/entities/others/mine.lua</Path>
   <Path>scripts/entities/others/spawnpoint.lua</Path>
   <Path>scripts/entities/physics/animobject.lua</Path>
@@ -1144,6 +1172,7 @@
   <Path>textures/defaults/default_mat_warning.dds</Path>
   <Path>textures/generic/metal/rusted_steel_ddna.dds</Path>
   <Path>textures/generic/metal/rusted_steel_diff.dds</Path>
+  <Path>textures/generic/paint/paint_black_a_diff.dds</Path>
   <Path>textures/lights/ce_logo_white.dds</Path>
   <Path>textures/lights/flashlight_projector.dds</Path>
   <Path>textures/lights/lens_flares/circular_bokeh_blurry.dds</Path>
@@ -1175,10 +1204,6 @@
   <Path>textures/sprites/glow/glow_a.dds</Path>
   <Path>textures/sprites/glow/glow_tiled.dds</Path>
   <Path>textures/sprites/hud/blood1_bullet.dds</Path>
-  <Path>textures/sprites/hud/blood2_bullet.dds</Path>
-  <Path>textures/sprites/hud/blood3_bullet.dds</Path>
-  <Path>textures/sprites/hud/dirt2_bullet.dds</Path>
-  <Path>textures/sprites/hud/dirt3_bullet.dds</Path>
   <Path>textures/sprites/leaves/leaf_tiled_a.dds</Path>
   <Path>textures/sprites/leaves/leaf_tiled_b.dds</Path>
   <Path>textures/sprites/lightning/electric_radial1.dds</Path>
